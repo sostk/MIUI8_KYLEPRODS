@@ -1,0 +1,19 @@
+*** ./smali/com/android/server/policy/PhoneWindowManager.smali	2017-08-18 18:18:17.902854797 +1000
+--- /home/sostk/miui8/kyleprods/temp/new_smali/services.jar.out/./smali/com/android/server/policy/PhoneWindowManager.smali	2017-08-18 18:17:04.266850972 +1000
+***************
+*** 463,469 ****
+  
+  .field mLidState:I
+  
+! .field private final mLock:Ljava/lang/Object;
+  
+  .field mLockScreenTimeout:I
+  
+--- 463,469 ----
+  
+  .field mLidState:I
+  
+! .field final mLock:Ljava/lang/Object;
+  
+  .field mLockScreenTimeout:I
+  

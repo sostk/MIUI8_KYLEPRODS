@@ -1,0 +1,13 @@
+*** ./smali/android/app/SystemServiceRegistry.smali	2017-08-18 18:18:40.202855956 +1000
+--- /home/sostk/miui8/kyleprods/temp/new_smali/framework.jar.out/./smali/android/app/SystemServiceRegistry.smali	2017-08-18 18:17:26.530852129 +1000
+***************
+*** 750,755 ****
+--- 750,757 ----
+  
+      invoke-static {v0, v1, v2}, Landroid/app/SystemServiceRegistry;->registerService(Ljava/lang/String;Ljava/lang/Class;Landroid/app/SystemServiceRegistry$ServiceFetcher;)V
+  
++     invoke-static {}, Landroid/app/ContextImplInjector;->registerMiuiServices()V
++ 
+      return-void
+  .end method
+  

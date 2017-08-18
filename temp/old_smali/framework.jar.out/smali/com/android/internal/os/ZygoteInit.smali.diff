@@ -1,0 +1,13 @@
+*** ./smali/com/android/internal/os/ZygoteInit.smali	2017-08-18 18:19:22.998858179 +1000
+--- /home/sostk/miui8/kyleprods/temp/new_smali/framework.jar.out/./smali/com/android/internal/os/ZygoteInit.smali	2017-08-18 18:18:08.094854288 +1000
+***************
+*** 347,352 ****
+--- 347,354 ----
+  
+      invoke-static {}, Lcom/android/internal/os/SamplingProfilerIntegration;->start()V
+  
++     invoke-static {}, Lmiui/patchrom/ClassHook;->initCoreHook()V
++ 
+      const/4 v5, 0x0
+  
+      .local v5, "startSystemServer":Z

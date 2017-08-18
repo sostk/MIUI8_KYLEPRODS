@@ -1,0 +1,19 @@
+*** ./smali/android/graphics/Bitmap.smali	2017-08-18 18:18:53.166856629 +1000
+--- /home/sostk/miui8/kyleprods/temp/new_smali/framework.jar.out/./smali/android/graphics/Bitmap.smali	2017-08-18 18:17:39.498852802 +1000
+***************
+*** 41,47 ****
+  
+  
+  # instance fields
+! .field private mBuffer:[B
+  
+  .field mDensity:I
+  
+--- 41,47 ----
+  
+  
+  # instance fields
+! .field public mBuffer:[B
+  
+  .field mDensity:I
+  
