@@ -1,5 +1,5 @@
 #
-# Makefile for tomato
+# Makefile for kyleprods
 #
 
 # The original zip file, MUST be specified by each product
