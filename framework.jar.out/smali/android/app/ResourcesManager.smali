@@ -3202,13 +3202,17 @@
     .line 369
     .end local v14    # "iconsAttached":Z
     :cond_4
-    new-instance v16, Landroid/content/res/Resources;
+    new-instance v16, Landroid/content/res/MiuiResources;
 
     move-object/from16 v0, v16
 
     move-object/from16 v1, p5
 
-    invoke-direct {v0, v9, v12, v11, v1}, Landroid/content/res/Resources;-><init>(Landroid/content/res/AssetManager;Landroid/util/DisplayMetrics;Landroid/content/res/Configuration;Landroid/content/res/CompatibilityInfo;)V
+    invoke-direct {v0, v9, v12, v11, v1}, Landroid/content/res/MiuiResources;-><init>(Landroid/content/res/AssetManager;Landroid/util/DisplayMetrics;Landroid/content/res/Configuration;Landroid/content/res/CompatibilityInfo;)V
+  
+      .restart local v16    # "r":Landroid/content/res/Resources;
+      monitor-enter p0
+
 
     .line 370
     .local v16, "r":Landroid/content/res/Resources;
