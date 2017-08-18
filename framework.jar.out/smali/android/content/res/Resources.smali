@@ -5624,15 +5624,9 @@
 
     move-object/from16 v0, p0
 
-     iget-object v5, v0, Landroid/content/res/Resources;->mConfiguration:Landroid/content/res/Configuration;
- 
-     invoke-virtual {v5}, Landroid/content/res/Configuration;->getLayoutDirection()I
- 
-     move-result v5
- 
-     aget-object v4, v4, v5
+     move/from16 v1, p2
   
-     invoke-virtual {v4, v10, v11}, Landroid/util/LongSparseArray;->get(J)Ljava/lang/Object;
+     invoke-virtual {v0, v10, v11, v1}, Landroid/content/res/Resources;->getPreloadedDrawable(JI)Landroid/graphics/drawable/Drawable$ConstantState;
 
     move-result-object v14
 
