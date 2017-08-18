@@ -5214,7 +5214,7 @@
     .line 2124
     :cond_0
     const/4 v1, 0x0
-    
+
     .local v1, "privacy":Z
     iget-object v4, p0, Lcom/android/server/am/ActivityStack;->mService:Lcom/android/server/am/ActivityManagerService;
 
@@ -8165,19 +8165,19 @@
 
     .line 3996
     :cond_10
-     iget-object v8, p1, Lcom/android/server/am/ActivityRecord;->packageName:Ljava/lang/String;
- 
-     invoke-static {v8, v0, v3, v1}, Landroid/app/MiuiThemeHelper;->canKeepActivityAlive(Ljava/lang/String;ILandroid/content/res/Configuration;Landroid/content/res/Configuration;)Z
- 
-     move-result v8
- 
-     if-eqz v8, :cond_miui_f
- 
-     const/4 v8, 0x1
- 
-     return v8
- 
-     :cond_miui_f    
+    iget-object v9, p1, Lcom/android/server/am/ActivityRecord;->packageName:Ljava/lang/String;
+
+    invoke-static {v9, v0, v4, v2}, Landroid/app/MiuiThemeHelper;->canKeepActivityAlive(Ljava/lang/String;ILandroid/content/res/Configuration;Landroid/content/res/Configuration;)Z
+
+    move-result v9
+
+    if-eqz v9, :cond_miui_f
+
+    const/4 v9, 0x1
+
+    return v9
+
+    :cond_miui_f
     iget-object v9, p1, Lcom/android/server/am/ActivityRecord;->info:Landroid/content/pm/ActivityInfo;
 
     invoke-virtual {v9}, Landroid/content/pm/ActivityInfo;->getRealConfigChanged()I
