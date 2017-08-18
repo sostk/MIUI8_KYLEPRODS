@@ -524,9 +524,9 @@
     invoke-virtual {v3, v4}, Landroid/view/Window;->setType(I)V
 
     .line 453
-     sget-boolean v3, Lcom/android/server/power/ShutdownThread;->mReboot:Z
- 
-     invoke-static {p0, v3}, Lcom/android/server/power/ShutdownThreadInjector;->showShutdownDialog(Landroid/content/Context;Z)V
+    sget-boolean v3, Lcom/android/server/power/ShutdownThread;->mReboot:Z
+
+    invoke-static {p0, v3}, Lcom/android/server/power/ShutdownThreadInjector;->showShutdownDialog(Landroid/content/Context;Z)V
 
     .line 456
     :cond_2
