@@ -5624,15 +5624,15 @@
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Landroid/content/res/Resources;->mConfiguration:Landroid/content/res/Configuration;
-
-    invoke-virtual {v5}, Landroid/content/res/Configuration;->getLayoutDirection()I
-
-    move-result v5
-
-    aget-object v4, v4, v5
-
-    invoke-virtual {v4, v10, v11}, Landroid/util/LongSparseArray;->get(J)Ljava/lang/Object;
+     iget-object v5, v0, Landroid/content/res/Resources;->mConfiguration:Landroid/content/res/Configuration;
+ 
+     invoke-virtual {v5}, Landroid/content/res/Configuration;->getLayoutDirection()I
+ 
+     move-result v5
+ 
+     aget-object v4, v4, v5
+  
+     invoke-virtual {v4, v10, v11}, Landroid/util/LongSparseArray;->get(J)Ljava/lang/Object;
 
     move-result-object v14
 
