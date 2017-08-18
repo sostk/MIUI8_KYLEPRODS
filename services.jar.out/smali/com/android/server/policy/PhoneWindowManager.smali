@@ -23073,12 +23073,12 @@
     move-result-object v1
 
     .line 1447
-    const-string/jumbo v2, "cm_setup_wizard_completed"
+    const-string/jumbo v2, "user_setup_complete"
 
     const/4 v3, -0x2
 
     .line 1446
-    invoke-static {v1, v2, v0, v3}, Lcyanogenmod/providers/CMSettings$Secure;->getIntForUser(Landroid/content/ContentResolver;Ljava/lang/String;II)I
+    invoke-static {v1, v2, v0, v3}, Landroid/provider/Settings$Secure;->getIntForUser(Landroid/content/ContentResolver;Ljava/lang/String;II)I
 
     move-result v1
 
@@ -29681,6 +29681,30 @@
     goto :goto_0
 .end method
 
+.method public showBootMessage(Ljava/lang/CharSequence;Z)V
+    .locals 0
+
+    .prologue
+    return-void
+.end method
+
+.method public showBootMessage_cm(Ljava/lang/CharSequence;Z)V
+    .locals 7
+    .param p1, "msg"    # Ljava/lang/CharSequence;
+    .param p2, "always"    # Z
+
+    .prologue
+    iget-object v0, p0, Lcom/android/server/policy/PhoneWindowManager;->mHandler:Landroid/os/Handler;
+
+    new-instance v1, Lcom/android/server/policy/PhoneWindowManager$26;
+
+    invoke-direct {v1, p0, p1}, Lcom/android/server/policy/PhoneWindowManager$26;-><init>(Lcom/android/server/policy/PhoneWindowManager;Ljava/lang/CharSequence;)V
+
+    invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+
+    return-void
+.end method
+
 .method public showGlobalActions()V
     .locals 2
 
@@ -30254,7 +30278,7 @@
 .end method
 
 .method public updateBootProgress(ILandroid/content/pm/ApplicationInfo;II)V
-    .locals 7
+    .locals 2
     .param p1, "stage"    # I
     .param p2, "optimizedApp"    # Landroid/content/pm/ApplicationInfo;
     .param p3, "currentAppPos"    # I
