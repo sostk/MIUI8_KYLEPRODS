@@ -8,3 +8,5 @@ Anisbd-- tester and thanks for suggesting me this rom
 warrenlobo--for some contributions
 #rohan--for help
 
+Current Status : bootloop , logcat added.
+
