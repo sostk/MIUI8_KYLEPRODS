@@ -1,0 +1,1915 @@
+--------- beginning of system
+08-19 01:36:39.743  1455  1455 I vold    : Vold 3.0 (the awakening) firing up
+08-19 01:36:39.744  1455  1455 V vold    : Detected support for: exfat ext4 f2fs ntfs vfat
+--------- beginning of main
+08-19 01:36:39.767  1472  1472 I sysinit : Running /system/etc/init.d/00banner 
+08-19 01:36:39.857  1477  1477 I lowmemorykiller: Using in-kernel low memory killer interface
+08-19 01:36:39.860  1509  1509 I cm      : _ _                                        
+08-19 01:36:39.924  1516  1516 I cm      : | (_)_ __   ___  __ _  __ _  ___  ___  ___  
+08-19 01:36:40.016  1549  1549 I cm      : | | | '_ \ / _ \/ _` |/ _` |/ _ \/ _ \/ __| 
+08-19 01:36:40.019  1527  1527 I installd: installd firing up
+08-19 01:36:40.027  1539  1539 D macloader: Deleting file /data/.cid.info
+08-19 01:36:40.071  1521  1521 I DEBUG   : debuggerd: starting
+08-19 01:36:40.105  1455  1481 V vold    : /system/bin/sgdisk
+08-19 01:36:40.105  1455  1481 V vold    :     --android-dump
+08-19 01:36:40.105  1455  1481 V vold    :     /dev/block/vold/disk:179_32
+08-19 01:36:40.115  1586  1586 I cm      : | | | | | |  __/ (_| | (_| |  __/ (_) \__ \ 
+08-19 01:36:40.206  1618  1618 I cm      : |_|_|_| |_|\___|\__,_|\__, |\___|\___/|___/ 
+08-19 01:36:40.211  1576  1576 I perfprofd: starting Android Wide Profiling daemon
+08-19 01:36:40.228  1576  1576 E perfprofd: unable to open configuration file /data/data/com.google.android.gms/files/perfprofd.conf
+08-19 01:36:40.228  1576  1576 I perfprofd: random seed set to 49425706
+08-19 01:36:40.274  1563  1563 I gatekeeperd: Starting gatekeeperd...
+08-19 01:36:40.275  1455  1481 V vold    : DISK mbr
+08-19 01:36:40.275  1455  1481 V vold    : PART 1 c
+08-19 01:36:40.288  1563  1563 W gatekeeperd: falling back to software GateKeeper
+08-19 01:36:40.295  1629  1629 I cm      :                       |___/ 
+08-19 01:36:40.360  1519  1519 I Netd    : Netd 1.0 starting
+08-19 01:36:40.369  1519  1519 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+08-19 01:36:40.369  1519  1519 D TetherController: Setting IP forward enable = 0
+08-19 01:36:40.465  1479  1479 I SurfaceFlinger: SurfaceFlinger is starting
+08-19 01:36:40.467  1479  1479 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+08-19 01:36:40.477  1528  1528 I keystore: Found keymaster0 module Keymaster OpenSSL HAL, version 2
+08-19 01:36:40.477  1528  1528 I SoftKeymaster: system/keymaster/soft_keymaster_device.cpp, Line 122: Creating device
+08-19 01:36:40.477  1528  1528 D SoftKeymaster: system/keymaster/soft_keymaster_device.cpp, Line 123: Device address: 0x408e4000
+08-19 01:36:40.477  1528  1528 I keystore: Keymaster0 module is software-only.  Using SoftKeymasterDevice instead.
+08-19 01:36:40.477  1528  1528 I SoftKeymaster: system/keymaster/soft_keymaster_device.cpp, Line 122: Creating device
+08-19 01:36:40.477  1528  1528 D SoftKeymaster: system/keymaster/soft_keymaster_device.cpp, Line 123: Device address: 0x408e4180
+08-19 01:36:40.477  1528  1528 I keystore: SELinux: Keystore SELinux is disabled.
+08-19 01:36:40.526  1645  1645 I cm      : Welcome to Android 6.0.1 / LineageOS-13.0-20170717-UNOFFICIAL-kyleprods 
+08-19 01:36:40.563  1605  1605 I octvm   : model:GT-S7582
+08-19 01:36:40.563  1605  1605 I octvm   : total memory:735792
+08-19 01:36:40.563  1605  1605 E octvm   : *** NO MCD CONFIG FILE DEFINED (persist.sys.mcd_config_file)
+08-19 01:36:40.563  1605  1605 E octvm   : 
+08-19 01:36:40.569  1655  1655 I sysinit : Running /system/etc/init.d/90userinit 
+08-19 01:36:40.640  1479  1479 D         : gHwMemAllocator client 1
+08-19 01:36:40.640  1479  1479 D         : gHwMemAllocator client 2
+08-19 01:36:40.641  1479  1479 D libEGL  : loaded /system/lib/egl/libGLES_hawaii.so
+08-19 01:36:40.747  1479  1479 D         : mem_init ++
+08-19 01:36:40.747  1479  1479 D         : gHwMemAllocator client 3
+08-19 01:36:40.747  1479  1479 D         : **** Using ION allocator ****
+08-19 01:36:40.748  1479  1479 D         : registered SIGUSR1[10] for pid[1479]
+08-19 01:36:40.748  1479  1479 D         : HwMemAllocatorImpl Static Counters 0 0
+08-19 01:36:40.748  1479  1479 D         : HwMemAllocatorImpl[401e9dcc] totalDeviceAllocSize[0] totalFree[0] maxFree[0] in numSlabs[0]
+08-19 01:36:40.784  1479  1479 D         : mem_init 401e9dcc--
+08-19 01:36:40.784  1479  1479 E ION     : ION version mismatch. User(0x10000) Kernel(0x10001)
+08-19 01:36:40.784  1479  1479 D ION     : config: version(0x10001) secure(0xf000) 256M(0x22d) fast(0x608) hwwr(0x608)
+08-19 01:36:40.785  1479  1479 D MM_DEVICE: Waiting for mm thread to come up
+08-19 01:36:40.785  1479  1676 D MM_DEVICE: mm_device_thread starting
+08-19 01:36:40.817  1479  1479 I hawaii.hwcomposer: BRCM using (fd=15)
+08-19 01:36:40.817  1479  1479 I hawaii.hwcomposer: id           = 
+08-19 01:36:40.817  1479  1479 I hawaii.hwcomposer: xres         = 480 px
+08-19 01:36:40.817  1479  1479 I hawaii.hwcomposer: yres         = 800 px
+08-19 01:36:40.817  1479  1479 I hawaii.hwcomposer: xres_virtual = 480 px
+08-19 01:36:40.817  1479  1479 I hawaii.hwcomposer: yres_virtual = 1600 px
+08-19 01:36:40.817  1479  1479 I hawaii.hwcomposer: bpp          = 32
+08-19 01:36:40.817  1479  1479 I hawaii.hwcomposer: r            = 16:8
+08-19 01:36:40.817  1479  1479 I hawaii.hwcomposer: g            =  8:8
+08-19 01:36:40.817  1479  1479 I hawaii.hwcomposer: b            =  0:8
+08-19 01:36:40.817  1479  1479 I hawaii.hwcomposer: width        = 52 mm (234461.531250 dpi)
+08-19 01:36:40.817  1479  1479 I hawaii.hwcomposer: height       = 87 mm (233563.218750 dpi)
+08-19 01:36:40.817  1479  1479 I hawaii.hwcomposer: refresh rate = 60.00 Hz
+08-19 01:36:40.817  1479  1479 I hawaii.hwcomposer: rotation = 0 
+08-19 01:36:40.820  1479  1479 D         : gHwMemAllocator client 4
+08-19 01:36:40.820  1479  1479 I SurfaceFlinger: Using composer version 1.2
+08-19 01:36:40.820  1479  1686 D hawaii.hwcomposer: HWC Starting VSYNC thread
+08-19 01:36:40.820  1479  1479 E hawaii.hwcomposer: hwc_query unknown request 6
+08-19 01:36:40.820  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 0 times
+08-19 01:36:40.820  1479  1479 E hawaii.hwcomposer: hwc_query unknown request 0
+08-19 01:36:40.820  1479  1479 W SurfaceFlinger: no suitable EGLConfig found, trying a simpler query
+08-19 01:36:40.821  1479  1479 I SurfaceFlinger: EGL information:
+08-19 01:36:40.821  1479  1479 I SurfaceFlinger: vendor    : Android
+08-19 01:36:40.821  1479  1479 I SurfaceFlinger: version   : 1.4 Android META-EGL
+08-19 01:36:40.821  1479  1479 I SurfaceFlinger: extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_swap_buffers_with_damage EGL_KHR_image EGL_KHR_image_base EGL_KHR_image_pixmap EGL_KHR_lock_surface EGL_KHR_fence_sync EGL_ANDROID_image_native_buffer 
+08-19 01:36:40.821  1479  1479 I SurfaceFlinger: Client API: OpenGL_ES
+08-19 01:36:40.821  1479  1479 I SurfaceFlinger: EGLSurface: 8-8-8-8, config=0x12
+08-19 01:36:40.825  1479  1479 D HAWAII_EGL: eglCreateContext() config: 18 context: 0x405c62e8, VC context 1, Thread 1479
+08-19 01:36:40.827  1479  1479 D HAWAII_EGL: eglMakeCurrent(0x405c62e8, 0x405c6330, 0x405c6330) Thread: 1479
+08-19 01:36:40.828  1479  1479 I SurfaceFlinger: OpenGL ES informations:
+08-19 01:36:40.828  1479  1479 I SurfaceFlinger: vendor    : Broadcom
+08-19 01:36:40.828  1479  1479 I SurfaceFlinger: renderer  : VideoCore IV HW
+08-19 01:36:40.828  1479  1479 I SurfaceFlinger: version   : OpenGL ES 2.0
+08-19 01:36:40.828  1479  1479 I SurfaceFlinger: extensions: GL_EXT_debug_marker GL_OES_compressed_ETC1_RGB8_texture GL_OES_compressed_paletted_texture GL_OES_texture_npot GL_OES_depth24 GL_OES_vertex_half_float GL_OES_EGL_image GL_OES_EGL_image_external GL_EXT_discard_framebuffer GL_OES_rgb8_rgba8 GL_OES_depth32 GL_OES_packed_depth_stencil GL_EXT_texture_format_BGRA8888 GL_APPLE_rgb_422 
+08-19 01:36:40.828  1479  1479 I SurfaceFlinger: GL_MAX_TEXTURE_SIZE = 2048
+08-19 01:36:40.828  1479  1479 I SurfaceFlinger: GL_MAX_VIEWPORT_DIMS = 2048
+08-19 01:36:40.828  1479  1479 D HAWAII_EGL: eglMakeCurrent(NULL) Thread: 1479
+08-19 01:36:40.828  1479  1479 E HAWAII_EGL: Destroying surface without window
+08-19 01:36:40.828  1479  1479 D HAWAII_EGL: Set SWAP INTERVAL 0
+08-19 01:36:40.829  1479  1479 E hawaii.gralloc: GRALLOC ALLOC flags 10001b22
+08-19 01:36:40.839  1479  1479 D HAWAII_EGL: eglCreateWindowSurface() surface: 0x405c6948, VC surface: 2, Thread: 1479
+08-19 01:36:40.840  1479  1479 D HAWAII_EGL: eglMakeCurrent(0x405c62e8, 0x405c6948, 0x405c6948) Thread: 1479
+08-19 01:36:40.842  1479  1479 D SurfaceFlinger: Set power mode=2, type=0 flinger=0x405e4000
+08-19 01:36:41.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 167 times
+08-19 01:36:41.043  1479  1479 D SurfaceFlinger: SF. shader cache generated - 26 shaders in 163.139938 ms
+08-19 01:36:41.049  1479  1479 E hawaii.gralloc: GRALLOC ALLOC flags 10001b22
+08-19 01:36:41.061  1479  1479 D hawaii.hwcomposer: FBDevice::post called 0 times [0 0 0 0 0 0 0 0]
+08-19 01:36:41.662  1689  1736 D         : gHwMemAllocator client 1
+08-19 01:36:41.662  1689  1736 D         : gHwMemAllocator client 2
+08-19 01:36:41.662  1689  1736 D libEGL  : loaded /system/lib/egl/libGLES_hawaii.so
+08-19 01:36:41.722  1689  1736 D         : mem_init ++
+08-19 01:36:41.722  1689  1736 D         : gHwMemAllocator client 3
+08-19 01:36:41.722  1689  1736 D         : **** Using ION allocator ****
+08-19 01:36:41.722  1689  1736 D         : registered SIGUSR1[10] for pid[1689]
+08-19 01:36:41.722  1689  1736 D         : HwMemAllocatorImpl Static Counters 0 0
+08-19 01:36:41.722  1689  1736 D         : HwMemAllocatorImpl[40413dcc] totalDeviceAllocSize[0] totalFree[0] maxFree[0] in numSlabs[0]
+08-19 01:36:41.725  1689  1736 D         : mem_init 40413dcc--
+08-19 01:36:41.725  1689  1736 E ION     : ION version mismatch. User(0x10000) Kernel(0x10001)
+08-19 01:36:41.725  1689  1736 D ION     : config: version(0x10001) secure(0xf000) 256M(0x22d) fast(0x608) hwwr(0x608)
+08-19 01:36:41.725  1689  1736 D MM_DEVICE: Waiting for mm thread to come up
+08-19 01:36:41.727  1689  1736 D MM_DEVICE: Waiting for mm thread to come up
+08-19 01:36:41.727  1689  1743 D MM_DEVICE: mm_device_thread starting
+08-19 01:36:41.730  1689  1736 D HAWAII_EGL: Set SWAP INTERVAL 0
+08-19 01:36:41.731  1479  1646 E hawaii.gralloc: GRALLOC ALLOC flags 10000b22
+08-19 01:36:41.740  1689  1736 D HAWAII_EGL: eglCreateWindowSurface() surface: 0x40f020f0, VC surface: 1, Thread: 1736
+08-19 01:36:41.741  1689  1736 D HAWAII_EGL: eglCreateContext() config: 10 context: 0x40f02270, VC context 1, Thread 1736
+08-19 01:36:41.741  1689  1736 D HAWAII_EGL: eglMakeCurrent(0x40f02270, 0x40f020f0, 0x40f020f0) Thread: 1736
+08-19 01:36:41.750  1689  1736 W BootAnimation: Unable to cache the animation
+08-19 01:36:41.750  1689  1736 E BootAnimation: couldn't find audio_conf.txt
+08-19 01:36:41.933  1525  1525 V MediaUtils: physMem: 753451008
+08-19 01:36:41.933  1525  1525 V MediaUtils: requested limit: 489743150
+08-19 01:36:41.933  1525  1525 V MediaUtils: actual limit: 489743150
+08-19 01:36:41.933  1525  1525 V MediaUtils: original limits: 4294967295/4294967295
+08-19 01:36:41.933  1525  1525 V MediaUtils: new limits: 489743150/4294967295
+08-19 01:36:41.965  1525  1525 I mediaserver: ServiceManager: 0x4144e120
+08-19 01:36:41.965  1525  1525 I AudioFlinger: Using default 3000 mSec as standby time.
+08-19 01:36:41.966  1525  1525 E BatteryNotifier: batterystats service unavailable!
+08-19 01:36:41.966  1525  1525 E BatteryNotifier: batterystats service unavailable!
+08-19 01:36:41.969  1525  1525 I CameraService: CameraService started (pid=1525)
+08-19 01:36:41.969  1525  1525 I CameraService: CameraService process starting
+08-19 01:36:41.969  1525  1525 E BatteryNotifier: batterystats service unavailable!
+08-19 01:36:41.969  1525  1525 E BatteryNotifier: batterystats service unavailable!
+08-19 01:36:42.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:36:42.054  1525  1525 D         : gHwMemAllocator client 1
+08-19 01:36:42.054  1525  1525 D         : gHwMemAllocator client 2
+08-19 01:36:42.066  1525  1525 I V4L2CameraDevice: checkSupportedCameras(): detected 2 v4l2 cameras
+08-19 01:36:42.066  1525  1525 I CameraHAL: init_camera_info(): detected 2 v4l2 cameras
+08-19 01:36:42.066  1525  1525 D V4L2CameraDevice: static int android::V4L2CameraDevice::checkOrientation(int)(), nOrientation=90
+08-19 01:36:42.067  1525  1525 I CameraHAL: init_camera_info(): camera0 orientation=90 facing=0
+08-19 01:36:42.067  1525  1525 D V4L2CameraDevice: static int android::V4L2CameraDevice::checkOrientation(int)(), nOrientation=270
+08-19 01:36:42.068  1525  1525 I CameraHAL: init_camera_info(): camera1 orientation=270 facing=1
+08-19 01:36:42.068  1525  1525 I CameraHAL: get_number_of_cameras(): reports 2 cameras
+08-19 01:36:42.068  1525  1525 I CameraService: Loaded "Broadcom CameraHal Module" camera module
+08-19 01:36:42.068  1525  1525 I CameraHAL: get_number_of_cameras(): reports 2 cameras
+08-19 01:36:42.068  1525  1525 I CameraHAL: get_number_of_cameras(): reports 2 cameras
+08-19 01:36:42.068  1525  1525 I CameraFlashlight: Opening camera 0
+08-19 01:36:42.068  1525  1525 I CameraHAL: get_number_of_cameras(): reports 2 cameras
+08-19 01:36:42.068  1525  1525 I CameraHAL: get_camera_info(): camera0 set to orient=90 facing=0
+08-19 01:36:42.068  1525  1525 I CameraHAL: +device_open(module=0x40b98060, name=0, device=0x414569c4)
+08-19 01:36:42.068  1525  1525 I CameraHAL: get_number_of_cameras(): reports 2 cameras
+08-19 01:36:42.068  1525  1525 D CameraHAL: cameraid=0 num_cameras=2
+08-20 01:36:37.412  1452  1452 W auditd  : type=2000 audit(0.0:1): initialized
+08-19 01:36:42.146  1479  1646 E hawaii.gralloc: GRALLOC ALLOC flags 10000b22
+08-19 01:36:42.149  1479  1479 E HAWAII_EGL: abuffer = (480 800) (10000b22)
+08-19 01:36:42.155  1479  1479 D hawaii.hwcomposer: FBDevice::post called 2 times [1 0 0 0 0 0 0 0]
+08-19 01:36:42.233  1525  1525 I V4L2CameraDevice: Name of input channel[0] is camdrv_ss
+08-19 01:36:42.233  1525  1525 I V4L2CameraDevice: Initialize(): mReportedOrientation = 90, mCameraOrientation = 90
+08-19 01:36:42.233  1525  1525 E V4L2CameraDevice: unsupported pixel format JPEG
+08-19 01:36:42.233  1525  1525 I V4L2CameraDevice: Sensor does not support JPEG capture.
+08-19 01:36:42.233  1525  1525 I V4L2CameraDevice: Initialize(): thumbnail not supported
+08-19 01:36:42.233  1525  1525 I V4L2CameraDevice: Initialize(): successfully initialized /dev/video0 ...
+08-19 01:36:42.233  1525  1525 D         : gHwMemAllocator client 3
+08-19 01:36:42.233  1525  1525 I CameraHAL: initDefaultParameters(): camera device supports 640x480,1024x768,1280x960,176x144,288x352,320x240,352x288,640x360,640x384,720x480,800x480,1280x720 preview sizes
+08-19 01:36:42.233  1525  1525 I V4L2CameraParameters: queryPictureSize(): checking if sensor supports jpeg capture
+08-19 01:36:42.233  1525  1525 E V4L2CameraParameters: ISP UNKNOWN FORMAT
+08-19 01:36:42.234  1525  1525 E V4L2CameraParameters: ISP UNKNOWN FORMAT
+08-19 01:36:42.234  1525  1525 I V4L2CameraParameters: queryPictureSize(): jpeg capture not supported instead it will do raw capture
+08-19 01:36:42.234  1525  1525 I CameraHAL: initDefaultParameters(): camera device supports 640x480,1024x768,1280x960,2560x1920,144x176,176x144,192x256,240x352,256x192,288x352,320x240,352x240,352x288,480x320,640x384,720x480,800x480,960x720,1280x720,1600x960,1600x1200,2048x1152,2048x1232,2560x1536,2048x1536 picture sizes
+08-19 01:36:42.234  1525  1525 I CameraHAL: initDefaultParameters(): hardware thumbnail not supported, using software
+08-19 01:36:42.234  1525  1525 I V4L2CameraParameters: ctrl:Framerate control supported
+08-19 01:36:42.234  1525  1525 I CameraHAL: initDefaultParameters():camera device supports (5000,10000),(5000,15000),(16000,25000),(4000,30000),(16000,30000) frame range(default=4000,30000)
+08-19 01:36:42.234  1525  1525 I V4L2CameraParameters: ctrl:Framerate control supported
+08-19 01:36:42.234  1525  1525 I CameraHAL: initDefaultParameters():camera device supports 10,15,25,30 frame rates(default=30)
+08-19 01:36:42.234  1525  1525 I V4L2CameraParameters: ctrl:Whilte Balance supported
+08-19 01:36:42.234  1525  1525 I CameraHAL: initDefaultParameters(): camera device supports auto,cloudy-daylight,fluorescent,daylight,incandescent modes
+08-19 01:36:42.234  1525  1525 I V4L2CameraParameters: ctrl:Brightness supported
+08-19 01:36:42.234  1525  1525 I CameraHAL: initDefaultParameters(): camera device supports -4~4,1 exposure modes
+08-19 01:36:42.234  1525  1525 I V4L2CameraParameters: ctrl:Color Effects supported and is currently set to 1, maximum=78
+08-19 01:36:42.234  1525  1525 I CameraHAL: initDefaultParameters(): camera device supports none,mono,sepia,negative color effects
+08-19 01:36:42.234  1525  1525 I V4L2CameraParameters: ctrl:Scene Mode supported and is currently set to 1, maximum=32766
+08-19 01:36:42.234  1525  1525 I CameraHAL: initDefaultParameters(): camera device supports auto,portrait,night,back-light,landscape,sports,party,beach,snow,sunset,dusk-dawn,fall-color,fireworks,text,candlelight scene modes
+08-19 01:36:42.234  1525  1525 I V4L2CameraParameters: ctrl:Anti Banding supported and is currently set to 1
+08-19 01:36:42.234  1525  1525 I CameraHAL: initDefaultParameters(): camera device supports auto,50hz,60hz,off antibanding modes
+08-19 01:36:42.234  1525  1525 I V4L2CameraParameters: ctrl:Focus supported
+08-19 01:36:42.235  1525  1525 I CameraHAL: initDefaultParameters(): camera device supports auto,macro,infinity focus modes
+08-19 01:36:42.235  1525  1525 I V4L2CameraParameters: ctrl:Flash supported
+08-19 01:36:42.235  1525  1525 I CameraHAL: initDefaultParameters(): camera device supports off,auto,on,torch flash modes
+08-19 01:36:42.235  1525  1525 I V4L2CameraParameters: queryZoomStages(): checking if sensor supports zoom
+08-19 01:36:42.235  1525  1525 I V4L2CameraParameters: queryZoomStages(): checking if sensor supports zoom
+08-19 01:36:42.235  1525  1525 I V4L2CameraParameters: ctrl:AEAWUNLOCK supported and defaultly currently set to 1
+08-19 01:36:42.235  1525  1525 I V4L2CameraParameters: queryAEAWBLockUnLock: aelock_awblock supported
+08-19 01:36:42.235  1525  1525 I CameraHAL: initDefaultParameters(): camera device supports AE/AWB lock
+08-19 01:36:42.235  1525  1525 I V4L2CameraParameters: ctrl:Touchfocus areas supported and is currently set to 1
+08-19 01:36:42.235  1525  1525 I V4L2CameraParameters: ctrl:ISO supported and is currently set to 1
+08-19 01:36:42.235  1525  1525 I CameraHAL: initDefaultParameters(): camera device supports auto,50,100,200,400,800,1200,1600,2400,3200,sports,night,movie iso modes
+08-19 01:36:42.235  1525  1525 I V4L2CameraParameters: ctrl:Metering supported and is currently set to 2
+08-19 01:36:42.235  1525  1525 I CameraHAL: initDefaultParameters(): camera device supports matrix,center,spot metering modes
+08-19 01:36:42.235  1525  1525 I V4L2CameraParameters: ctrl:WDR supported and is currently set to 1
+08-19 01:36:42.235  1525  1525 I CameraHAL: initDefaultParameters(): camera device supports wdr mode
+08-19 01:36:42.235  1525  1525 I CameraHAL: initDefaultParameters(): camera device doesnot support antishake mode
+08-19 01:36:42.235  1525  1525 I CameraHAL: initDefaultParameters(): camera device doesnot support beauty shot
+08-19 01:36:42.235  1525  1525 I CameraHAL: initDefaultParameters(): camera device doesnot support blur levels
+08-19 01:36:42.235  1525  1525 I CameraHAL: initDefaultParameters(): camera device doesnot support firmware mode
+08-19 01:36:42.235  1525  1525 I V4L2CameraParameters: ctrl:Check Dataline supported and is currently set to 0
+08-19 01:36:42.235  1525  1525 I CameraHAL: initDefaultParameters(): camera device supports dtp mode
+08-19 01:36:42.235  1525  1525 I V4L2CameraParameters: ctrl:Vtmode supported and is currently set to 1
+08-19 01:36:42.235  1525  1525 I CameraHAL: initDefaultParameters(): camera device supports vt mode
+08-19 01:36:42.235  1525  1525 I V4L2CameraParameters: ctrl:Cam mode supported and is currently set to 1
+08-19 01:36:42.235  1525  1525 I CameraHAL: initDefaultParameters(): camera device supports movie mode
+08-19 01:36:42.236  1525  1525 E CameraHAL: -device_open(rc=0)
+08-19 01:36:42.237  1525  1525 I V4L2CameraDevice: setPreviewWindow(): current: 0x0 -> new: 0x414569d0
+08-19 01:36:42.238  1525  1525 I CameraHAL: verifyParameters(KEY_EXPOSURE_COMPENSATION): 0
+08-19 01:36:42.238  1525  1525 I CameraHAL: verifyParameters(): Foucs Area ---
+08-19 01:36:42.238  1525  1525 I CameraHAL: verifyParameters(): max_focus_areas = 1
+08-19 01:36:42.238  1525  1525 I CameraHAL: verifyParameters(): focus area=(0, 0, 1, 1, 1)
+08-19 01:36:42.238  1525  1525 I CameraHAL: verifyParameters(): focus area passed !!
+08-19 01:36:42.238  1525  1525 W CameraHAL: stopPreview(): camera device is not streaming
+08-19 01:36:42.238  1525  1525 I V4L2CameraDevice: setPreviewWindow(): current: 0x414569d0 -> new: 0x0
+08-19 01:36:42.238  1525  1525 I CameraFlashlight: Destroying camera 0
+08-19 01:36:42.238  1525  1525 W BrcmAbstractCameraDevice: stopDeliveringFrames: Device is not started
+08-19 01:36:42.238  1525  1525 E V4L2CameraDevice: ERR(int v4l2_streamoff(int)):VIDIOC_STREAMOFF failed
+08-19 01:36:42.238  1525  1525 E V4L2CameraDevice: stopDeliveringFrames(): failed to stop streaming
+08-19 01:36:42.238  1525  1525 W CameraHAL: closeCamera(): error while stoping streaming
+08-19 01:36:42.238  1525  1525 W V4L2CameraDevice: stopDevice():camera device is not started.
+08-19 01:36:42.238  1525  1525 I CameraHAL: +closeCamera and cancelAutoFocus()
+08-19 01:36:42.238  1525  1525 I V4L2CameraParameters: Canceled auto focus success 
+08-19 01:36:42.239  1525  1779 I CallbackNotifier: inNotifierThread(): Received exit command, exiting notifier thread
+08-19 01:36:42.254  1479  1646 E hawaii.gralloc: GRALLOC ALLOC flags 10000b22
+08-19 01:36:42.255  1479  1479 E HAWAII_EGL: abuffer = (480 800) (10000b22)
+08-19 01:36:42.526  1479  1479 E HAWAII_EGL: abuffer = (480 800) (10000b22)
+08-19 01:36:42.944  1525  1525 E CallbackNotifier: putMsg(): invalid thread control fd
+08-19 01:36:42.944  1525  1525 E CallbackNotifier: stopThread(): failed to stop notifier thread
+08-19 01:36:42.945  1525  1525 I CameraFlashlight: Opening camera 1
+08-19 01:36:42.945  1525  1525 I CameraHAL: get_number_of_cameras(): reports 2 cameras
+08-19 01:36:42.945  1525  1525 I CameraHAL: get_camera_info(): camera1 set to orient=270 facing=1
+08-19 01:36:42.945  1525  1525 I CameraHAL: +device_open(module=0x40b98060, name=1, device=0x41456a24)
+08-19 01:36:42.945  1525  1525 I CameraHAL: get_number_of_cameras(): reports 2 cameras
+08-19 01:36:42.945  1525  1525 D CameraHAL: cameraid=1 num_cameras=2
+08-19 01:36:43.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 64 times
+08-19 01:36:43.094  1547  1547 I shelld  : ServiceManager: 0x423bd9a0
+08-19 01:36:43.102  1534  1534 E         : StartMulticlient:
+08-19 01:36:43.102  1534  1534 E         : StartMulticlient() START
+08-19 01:36:43.104  1534  1887 E         : [TID] MulticlientLoop(1887)
+08-19 01:36:43.104  1534  1887 E         : MulticlientLoop start...
+08-19 01:36:43.104  1534  1887 E         : set_multiclient_max_fd:
+08-19 01:36:43.104  1534  1887 E         : set_multiclient_max_fd: maxfd=14
+08-19 01:36:43.104  1534  1887 E         : set_multiclient_fd_set:
+08-19 01:36:43.212  1525  1525 I V4L2CameraDevice: Name of input channel[0] is camdrv_ss_sub
+08-19 01:36:43.212  1525  1525 I V4L2CameraDevice: Initialize(): mReportedOrientation = 270, mCameraOrientation = 270
+08-19 01:36:43.212  1525  1525 E V4L2CameraDevice: unsupported pixel format JPEG
+08-19 01:36:43.212  1525  1525 I V4L2CameraDevice: Sensor does not support JPEG capture.
+08-19 01:36:43.212  1525  1525 I V4L2CameraDevice: Initialize(): thumbnail not supported
+08-19 01:36:43.212  1525  1525 I V4L2CameraDevice: Initialize(): successfully initialized /dev/video1 ...
+08-19 01:36:43.212  1525  1525 D         : gHwMemAllocator client 4
+08-19 01:36:43.212  1525  1525 I CameraHAL: initDefaultParameters(): camera device supports 640x480,176x144,288x352,320x240,352x288,640x360,640x384 preview sizes
+08-19 01:36:43.213  1525  1525 I V4L2CameraParameters: queryPictureSize(): checking if sensor supports jpeg capture
+08-19 01:36:43.213  1525  1525 E V4L2CameraParameters: ISP UNKNOWN FORMAT
+08-19 01:36:43.213  1525  1525 E V4L2CameraParameters: ISP UNKNOWN FORMAT
+08-19 01:36:43.213  1525  1525 I V4L2CameraParameters: queryPictureSize(): jpeg capture not supported instead it will do raw capture
+08-19 01:36:43.213  1525  1525 I CameraHAL: initDefaultParameters(): camera device supports 640x480,144x176,176x144,192x256,240x352,256x192,288x352,320x240,352x240,352x288,480x320,640x384 picture sizes
+08-19 01:36:43.213  1525  1525 I CameraHAL: initDefaultParameters(): hardware thumbnail not supported, using software
+08-19 01:36:43.213  1525  1525 I V4L2CameraParameters: ctrl:Framerate control supported
+08-19 01:36:43.213  1525  1525 I CameraHAL: initDefaultParameters():camera device supports (5000,10000),(5000,15000),(16000,25000),(4000,30000),(16000,30000) frame range(default=4000,30000)
+08-19 01:36:43.213  1525  1525 I V4L2CameraParameters: ctrl:Framerate control supported
+08-19 01:36:43.213  1525  1525 I CameraHAL: initDefaultParameters():camera device supports 10,15,25,30 frame rates(default=30)
+08-19 01:36:43.213  1525  1525 I V4L2CameraParameters: ctrl:Whilte Balance supported
+08-19 01:36:43.213  1525  1525 I CameraHAL: initDefaultParameters(): camera device supports auto,cloudy-daylight,fluorescent,daylight,incandescent modes
+08-19 01:36:43.213  1525  1525 I V4L2CameraParameters: ctrl:Brightness supported
+08-19 01:36:43.213  1525  1525 I CameraHAL: initDefaultParameters(): camera device supports -4~4,1 exposure modes
+08-19 01:36:43.213  1525  1525 I V4L2CameraParameters: ctrl:Color Effects supported and is currently set to 1, maximum=78
+08-19 01:36:43.213  1525  1525 I CameraHAL: initDefaultParameters(): camera device supports none,mono,sepia,negative color effects
+08-19 01:36:43.214  1525  1525 I V4L2CameraParameters: ctrl:Scene Mode supported and is currently set to 1, maximum=2
+08-19 01:36:43.214  1525  1525 I CameraHAL: initDefaultParameters(): camera device supports auto scene modes
+08-19 01:36:43.214  1525  1525 I V4L2CameraParameters: ctrl:Anti Banding supported and is currently set to 1
+08-19 01:36:43.214  1525  1525 I CameraHAL: initDefaultParameters(): camera device supports auto,50hz,60hz,off antibanding modes
+08-19 01:36:43.214  1525  1525 I V4L2CameraParameters: ctrl:Focus supported
+08-19 01:36:43.214  1525  1525 I CameraHAL: initDefaultParameters(): camera device supports infinity focus modes
+08-19 01:36:43.214  1525  1525 I V4L2CameraParameters: ctrl:Flash supported
+08-19 01:36:43.214  1525  1525 I CameraHAL: initDefaultParameters(): camera device supports off flash modes
+08-19 01:36:43.214  1525  1525 I V4L2CameraParameters: queryZoomStages(): checking if sensor supports zoom
+08-19 01:36:43.214  1525  1525 I V4L2CameraParameters: queryZoomStages(): checking if sensor supports zoom
+08-19 01:36:43.216  1534  1534 D BrcmGpsRildIpc: BrcmLbsRilAsn1_init OsHandle(41657000)
+08-19 01:36:43.216  1534  1534 D BrcmGpsRildIpc: BrcmLbsRilCntin_init OsHandle(41657000)
+08-19 01:36:43.216  1534  1534 D BrcmGpsRildIpc: BrcmLbsRilSupl_init
+08-19 01:36:43.214  1525  1525 I CameraHAL: initDefaultParameters(): camera device doesnot support AE/AWB lock
+08-19 01:36:43.217  1525  1525 I CameraHAL: initDefaultParameters(): camera device doesnot support iso
+08-19 01:36:43.217  1525  1525 I V4L2CameraParameters: ctrl:Metering supported and is currently set to 2
+08-19 01:36:43.217  1525  1525 I CameraHAL: initDefaultParameters(): camera device supports matrix,center,spot metering modes
+08-19 01:36:43.218  1525  1525 I CameraHAL: initDefaultParameters(): camera device doesnot support wdr mode
+08-19 01:36:43.218  1525  1525 I CameraHAL: initDefaultParameters(): camera device doesnot support antishake mode
+08-19 01:36:43.218  1525  1525 I CameraHAL: initDefaultParameters(): camera device doesnot support beauty shot
+08-19 01:36:43.218  1525  1525 I CameraHAL: initDefaultParameters(): camera device doesnot support blur levels
+08-19 01:36:43.218  1525  1525 I CameraHAL: initDefaultParameters(): camera device doesnot support firmware mode
+08-19 01:36:43.218  1525  1525 I CameraHAL: initDefaultParamters(): camera device doesnot support dtp mode
+08-19 01:36:43.218  1525  1525 I V4L2CameraParameters: ctrl:Vtmode supported and is currently set to 1
+08-19 01:36:43.218  1525  1525 I CameraHAL: initDefaultParameters(): camera device supports vt mode
+08-19 01:36:43.218  1525  1525 I V4L2CameraParameters: ctrl:Cam mode supported and is currently set to 1
+08-19 01:36:43.218  1525  1525 I CameraHAL: initDefaultParameters(): camera device supports movie mode
+08-19 01:36:43.218  1525  1525 E CameraHAL: -device_open(rc=0)
+08-19 01:36:43.219  1525  1525 I V4L2CameraDevice: setPreviewWindow(): current: 0x0 -> new: 0x41456a30
+08-19 01:36:43.223  1525  1525 I CameraHAL: verifyParameters(KEY_EXPOSURE_COMPENSATION): 0
+08-19 01:36:43.223  1525  1525 I CameraHAL: verifyParameters(): Foucs Area ---
+08-19 01:36:43.223  1525  1525 I CameraHAL: verifyParameters(): max_focus_areas = 0
+08-19 01:36:43.223  1525  1525 W CameraHAL: verifyParameters(KEY_FOCUS_AREAS):[WARNING]camera does not support focus areas(=0), ignore APP's focus areas(=(0,0,1,1,1)) here
+08-19 01:36:43.223  1525  1525 W CameraHAL: stopPreview(): camera device is not streaming
+08-19 01:36:43.224  1525  1525 I V4L2CameraDevice: setPreviewWindow(): current: 0x41456a30 -> new: 0x0
+08-19 01:36:43.224  1525  1525 I CameraFlashlight: Destroying camera 1
+08-19 01:36:43.224  1525  1525 W BrcmAbstractCameraDevice: stopDeliveringFrames: Device is not started
+08-19 01:36:43.224  1525  1525 E V4L2CameraDevice: ERR(int v4l2_streamoff(int)):VIDIOC_STREAMOFF failed
+08-19 01:36:43.224  1525  1525 E V4L2CameraDevice: stopDeliveringFrames(): failed to stop streaming
+08-19 01:36:43.224  1525  1525 W CameraHAL: closeCamera(): error while stoping streaming
+08-19 01:36:43.224  1525  1525 W V4L2CameraDevice: stopDevice():camera device is not started.
+08-19 01:36:43.224  1525  1525 I CameraHAL: +closeCamera and cancelAutoFocus()
+08-19 01:36:43.545  1525  1525 E CallbackNotifier: putMsg(): invalid thread control fd
+08-19 01:36:43.545  1525  1525 E CallbackNotifier: stopThread(): failed to stop notifier thread
+08-19 01:36:43.546  1525  1525 I CameraHAL: get_number_of_cameras(): reports 2 cameras
+08-19 01:36:43.546  1525  1525 I CameraHAL: get_camera_info(): camera0 set to orient=90 facing=0
+08-19 01:36:43.546  1525  1525 I CameraHAL: get_number_of_cameras(): reports 2 cameras
+08-19 01:36:43.546  1525  1525 I CameraHAL: get_camera_info(): camera1 set to orient=270 facing=1
+08-19 01:36:43.546  1525  1525 I ServiceManager: Waiting for service media.camera.proxy...
+08-19 01:36:43.657  1541  1541 D AndroidRuntime: >>>>>> START com.android.internal.os.ZygoteInit uid 0 <<<<<<
+08-19 01:36:43.731  1541  1541 D AndroidRuntime: CheckJNI is OFF
+08-19 01:36:43.750  1541  1541 I art     : option[0]=-Xzygote
+08-19 01:36:43.750  1541  1541 I art     : option[1]=-Xstacktracefile:/data/anr/traces.txt
+08-19 01:36:43.750  1541  1541 I art     : option[2]=exit
+08-19 01:36:43.750  1541  1541 I art     : option[3]=vfprintf
+08-19 01:36:43.750  1541  1541 I art     : option[4]=sensitiveThread
+08-19 01:36:43.750  1541  1541 I art     : option[5]=-verbose:gc
+08-19 01:36:43.750  1541  1541 I art     : option[6]=-Xms8m
+08-19 01:36:43.750  1541  1541 I art     : option[7]=-Xmx256m
+08-19 01:36:43.750  1541  1541 I art     : option[8]=-XX:HeapGrowthLimit=96m
+08-19 01:36:43.750  1541  1541 I art     : option[9]=-XX:HeapMinFree=2m
+08-19 01:36:43.750  1541  1541 I art     : option[10]=-XX:HeapMaxFree=8m
+08-19 01:36:43.750  1541  1541 I art     : option[11]=-XX:HeapTargetUtilization=0.75
+08-19 01:36:43.750  1541  1541 I art     : option[12]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+08-19 01:36:43.750  1541  1541 I art     : option[13]=-Xlockprofthreshold:500
+08-19 01:36:43.750  1541  1541 I art     : option[14]=-Ximage-compiler-option
+08-19 01:36:43.750  1541  1541 I art     : option[15]=--runtime-arg
+08-19 01:36:43.750  1541  1541 I art     : option[16]=-Ximage-compiler-option
+08-19 01:36:43.750  1541  1541 I art     : option[17]=-Xms64m
+08-19 01:36:43.750  1541  1541 I art     : option[18]=-Ximage-compiler-option
+08-19 01:36:43.750  1541  1541 I art     : option[19]=--runtime-arg
+08-19 01:36:43.750  1541  1541 I art     : option[20]=-Ximage-compiler-option
+08-19 01:36:43.750  1541  1541 I art     : option[21]=-Xmx64m
+08-19 01:36:43.750  1541  1541 I art     : option[22]=-Ximage-compiler-option
+08-19 01:36:43.750  1541  1541 I art     : option[23]=--image-classes=/system/etc/preloaded-classes
+08-19 01:36:43.750  1541  1541 I art     : option[24]=-Xcompiler-option
+08-19 01:36:43.750  1541  1541 I art     : option[25]=--runtime-arg
+08-19 01:36:43.750  1541  1541 I art     : option[26]=-Xcompiler-option
+08-19 01:36:43.750  1541  1541 I art     : option[27]=-Xms64m
+08-19 01:36:43.751  1541  1541 I art     : option[28]=-Xcompiler-option
+08-19 01:36:43.751  1541  1541 I art     : option[29]=--runtime-arg
+08-19 01:36:43.751  1541  1541 I art     : option[30]=-Xcompiler-option
+08-19 01:36:43.751  1541  1541 I art     : option[31]=-Xmx512m
+08-19 01:36:43.751  1541  1541 I art     : option[32]=-Ximage-compiler-option
+08-19 01:36:43.751  1541  1541 I art     : option[33]=--instruction-set-variant=cortex-a9
+08-19 01:36:43.751  1541  1541 I art     : option[34]=-Xcompiler-option
+08-19 01:36:43.751  1541  1541 I art     : option[35]=--instruction-set-variant=cortex-a9
+08-19 01:36:43.751  1541  1541 I art     : option[36]=-Ximage-compiler-option
+08-19 01:36:43.751  1541  1541 I art     : option[37]=--instruction-set-features=default
+08-19 01:36:43.751  1541  1541 I art     : option[38]=-Xcompiler-option
+08-19 01:36:43.751  1541  1541 I art     : option[39]=--instruction-set-features=default
+08-19 01:36:43.751  1541  1541 I art     : option[40]=-Duser.locale=en-US
+08-19 01:36:43.751  1541  1541 I art     : option[41]=--cpu-abilist=armeabi-v7a,armeabi
+08-19 01:36:43.751  1541  1541 I art     : option[42]=-Xfingerprint:samsung/lineage_kyleprods/kyleprods:6.0.1/MOB31T/3b4c4c0809:userdebug/release-keys
+08-19 01:36:43.980  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:36:44.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:36:44.183  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:36:44.501  1541  1541 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+08-19 01:36:44.547  1525  1525 I ServiceManager: Waiting for service media.camera.proxy...
+08-19 01:36:45.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:36:45.131  1541  1541 E memtrack: Couldn't load memtrack module (No such file or directory)
+08-19 01:36:45.131  1541  1541 E android.os.Debug: failed to load memtrack module: -2
+08-19 01:36:45.175  1541  1541 I Radio-JNI: register_android_hardware_Radio DONE
+08-19 01:36:45.225  1541  1541 I SamplingProfilerIntegration: Profiling disabled.
+08-19 01:36:45.309  1541  1541 I         : ARTPROXY OFFSET: method_entry_offset = 36
+08-19 01:36:45.309  1541  1541 I         : ARTPROXY OFFSET: method_interpreter_entry_offset = 28
+08-19 01:36:45.309  1541  1541 I         : ARTPROXY OFFSET: managed_stack_size = 12
+08-19 01:36:45.309  1541  1541 I         : ARTPROXY OFFSET: thread_deliver_exception_entry_offset = 608
+08-19 01:36:45.309  1541  1541 I         : ARTPROXY OFFSET: thread_exception_offset = 132
+08-19 01:36:45.309  1541  1541 I         : ARTPROXY OFFSET: method_code_size_offset = 4
+08-19 01:36:45.313  1541  1541 I ClassHook: initCoreHook
+08-19 01:36:45.349  1541  1541 I ClassHook: android.accounts.AccountManagerResponseHook attachMethod onResult(Landroid/os/Bundle;)V
+08-19 01:36:45.363  1541  1541 I ClassHook: android.app.ActivityHook attachMethod onResume()V
+08-19 01:36:45.363  1541  1541 I ClassHook: android.app.ActivityThreadHook attachMethod handleBindApplication(Landroid/app/ActivityThread$AppBindData;)V
+08-19 01:36:45.369  1541  1541 I ClassHook: android.app.ActivityThreadHook attachMethod handleTrimMemory(I)V
+08-19 01:36:45.369  1541  1541 I ClassHook: android.app.ActivityThreadHook attachMethod main([Ljava/lang/String;)V
+08-19 01:36:45.370  1541  1541 I ClassHook: android.app.AppOpsManagerHook attachMethod opAllowsReset(I)Z
+08-19 01:36:45.397  1541  1541 I ClassHook: android.app.AppOpsManagerHook attachMethod opToDefaultMode(I)I
+08-19 01:36:45.398  1541  1541 I ClassHook: android.app.AppOpsManagerHook attachMethod opToPermission(I)Ljava/lang/String;
+08-19 01:36:45.398  1541  1541 I ClassHook: android.app.AppOpsManagerHook attachMethod opToRestriction(I)Ljava/lang/String;
+08-19 01:36:45.398  1541  1541 I ClassHook: android.app.AppOpsManagerHook attachMethod opToSwitch(I)I
+08-19 01:36:45.399  1541  1541 I ClassHook: android.app.ApplicationPackageManagerHook attachMethod getBadgeResIdForUser(I)I
+08-19 01:36:45.400  1541  1541 I ClassHook: android.app.ApplicationPackageManagerHook attachMethod getResourcesForApplication(Landroid/content/pm/ApplicationInfo;)Landroid/content/res/Resources;
+08-19 01:36:45.400  1541  1541 I ClassHook: android.app.ContextImplHook attachConstructor (Landroid/app/ContextImpl;Landroid/app/ActivityThread;Landroid/app/LoadedApk;Landroid/os/IBinder;Landroid/os/UserHandle;ZLandroid/view/Display;Landroid/content/res/Configuration;I)V
+08-19 01:36:45.405  1541  1541 I ClassHook: android.app.LoadedApkHook attachMethod getResources(Landroid/app/ActivityThread;)Landroid/content/res/Resources;
+08-19 01:36:45.412  1541  1541 I ClassHook: android.app.NotificationHook attachMethod cloneInto(Landroid/app/Notification;Z)V
+08-19 01:36:45.418  1541  1541 I ClassHook: android.app.NotificationHook attachMethod writeToParcel(Landroid/os/Parcel;I)V
+08-19 01:36:45.418  1541  1541 I ClassHook: android.app.NotificationHook attachConstructor ()V
+08-19 01:36:45.418  1541  1541 I ClassHook: android.app.NotificationHook attachConstructor (ILjava/lang/CharSequence;J)V
+08-19 01:36:45.418  1541  1541 I ClassHook: android.app.NotificationHook attachConstructor (Landroid/content/Context;ILjava/lang/CharSequence;JLjava/lang/CharSequence;Ljava/lang/CharSequence;Landroid/content/Intent;)V
+08-19 01:36:45.419  1541  1541 I ClassHook: android.app.NotificationHook attachConstructor (Landroid/os/Parcel;)V
+08-19 01:36:45.419  1541  1541 I ClassHook: android.app.ResourcesManagerHook attachMethod applyConfigurationToResourcesLocked(Landroid/content/res/Configuration;Landroid/content/res/CompatibilityInfo;)Z
+08-19 01:36:45.419  1541  1541 I art     : Rejecting re-init on previously-failed class java.lang.Class<android.app.ResourcesManager>
+08-19 01:36:45.420  1541  1541 I art     : Rejecting re-init on previously-failed class java.lang.Class<android.app.ResourcesManager>
+08-19 01:36:45.420  1541  1541 E ArtMethodProxy-JNI: Couldn't get method Landroid/app/ResourcesManager;.applyConfigurationToResourcesLocked (Landroid/content/res/Configuration;Landroid/content/res/CompatibilityInfo;)Z
+08-19 01:36:45.443  1541  1541 E ClassHook: Build proxy failed.
+08-19 01:36:45.443  1541  1541 E ClassHook: java.lang.RuntimeException: Couldn't get method Landroid/app/ResourcesManager;.applyConfigurationToResourcesLocked(Landroid/content/res/Configuration;Landroid/content/res/CompatibilityInfo;)Z
+08-19 01:36:45.443  1541  1541 E ClassHook: 	at com.miui.internal.util.ClassProxy.attachMethodNative(Native Method)
+08-19 01:36:45.443  1541  1541 E ClassHook: 	at com.miui.internal.util.ClassProxy.attachMethod(SourceFile:184)
+08-19 01:36:45.443  1541  1541 E ClassHook: 	at miui.patchrom.ClassHook.buildProxy(ClassHook.java:61)
+08-19 01:36:45.443  1541  1541 E ClassHook: 	at java.lang.reflect.Method.invoke(Native Method)
+08-19 01:36:45.443  1541  1541 E ClassHook: 	at miui.patchrom.ClassHook.initHook(ClassHook.java:116)
+08-19 01:36:45.443  1541  1541 E ClassHook: 	at miui.patchrom.ClassHook.initCoreHook(ClassHook.java:93)
+08-19 01:36:45.443  1541  1541 E ClassHook: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java)
+08-19 01:36:45.444  1541  1541 I ClassHook: android.content.ContentProviderHook attachMethod checkUser(IILandroid/content/Context;)Z
+08-19 01:36:45.449  1541  1541 I ClassHook: android.content.IntentHook attachMethod readFromParcel(Landroid/os/Parcel;)V
+08-19 01:36:45.454  1541  1541 I ClassHook: android.content.IntentHook attachMethod writeToParcel(Landroid/os/Parcel;I)V
+08-19 01:36:45.455  1541  1541 I ClassHook: android.content.IntentHook attachConstructor (Landroid/content/Intent;)V
+08-19 01:36:45.455  1541  1541 I ClassHook: android.content.IntentHook attachConstructor (Landroid/content/Intent;Z)V
+08-19 01:36:45.456  1541  1541 I ClassHook: android.content.pm.PackageItemInfoHook attachMethod loadIcon(Landroid/content/pm/PackageManager;)Landroid/graphics/drawable/Drawable;
+08-19 01:36:45.461  1541  1541 I ClassHook: android.content.pm.PackageManagerHook attachMethod buildRequestPermissionsIntent([Ljava/lang/String;)Landroid/content/Intent;
+08-19 01:36:45.466  1541  1541 I ClassHook: android.content.res.AssetManagerHook attachConstructor ()V
+08-19 01:36:45.471  1541  1541 I ClassHook: android.content.res.AssetManagerHook attachConstructor (Z)V
+08-19 01:36:45.472  1541  1541 I ClassHook: android.content.res.ConfigurationHook attachMethod compareTo(Landroid/content/res/Configuration;)I
+08-19 01:36:45.473  1541  1541 I ClassHook: android.content.res.ConfigurationHook attachMethod diff(Landroid/content/res/Configuration;)I
+08-19 01:36:45.473  1541  1541 I ClassHook: android.content.res.ConfigurationHook attachMethod hashCode()I
+08-19 01:36:45.473  1541  1541 I ClassHook: android.content.res.ConfigurationHook attachMethod needNewResources(II)Z
+08-19 01:36:45.473  1541  1541 I ClassHook: android.content.res.ConfigurationHook attachMethod readFromParcel(Landroid/os/Parcel;)V
+08-19 01:36:45.474  1541  1541 I ClassHook: android.content.res.ConfigurationHook attachMethod setTo(Landroid/content/res/Configuration;)V
+08-19 01:36:45.474  1541  1541 I ClassHook: android.content.res.ConfigurationHook attachMethod setToDefaults()V
+08-19 01:36:45.474  1541  1541 I ClassHook: android.content.res.ConfigurationHook attachMethod toString()Ljava/lang/String;
+08-19 01:36:45.474  1541  1541 I ClassHook: android.content.res.ConfigurationHook attachMethod updateFrom(Landroid/content/res/Configuration;)I
+08-19 01:36:45.474  1541  1541 I ClassHook: android.content.res.ConfigurationHook attachMethod writeToParcel(Landroid/os/Parcel;I)V
+08-19 01:36:45.475  1541  1541 I ClassHook: android.content.res.ResourcesHook attachMethod calcConfigChanges(Landroid/content/res/Configuration;)I
+08-19 01:36:45.475  1541  1541 I ClassHook: android.content.res.ResourcesHook attachMethod getSystem()Landroid/content/res/Resources;
+08-19 01:36:45.476  1541  1541 I ClassHook: android.content.res.ResourcesHook attachMethod loadDrawableForCookie(Landroid/util/TypedValue;ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+08-19 01:36:45.476  1541  1541 I ClassHook: android.content.res.ResourcesHook attachMethod obtainAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
+08-19 01:36:45.481  1541  1541 I ClassHook: android.content.res.ResourcesHook attachMethod obtainTypedArray(I)Landroid/content/res/TypedArray;
+08-19 01:36:45.482  1541  1541 I ClassHook: android.content.res.ResourcesHook attachConstructor ()V
+08-19 01:36:45.483  1541  1541 I ClassHook: android.content.res.ResourcesThemeHook attachMethod obtainStyledAttributes(I[I)Landroid/content/res/TypedArray;
+08-19 01:36:45.484  1541  1541 I ClassHook: android.content.res.ResourcesThemeHook attachMethod obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
+08-19 01:36:45.484  1541  1541 I ClassHook: android.content.res.ResourcesThemeHook attachMethod obtainStyledAttributes([I)Landroid/content/res/TypedArray;
+08-19 01:36:45.484  1541  1541 I ClassHook: android.content.res.ResourcesThemeHook attachMethod resolveAttribute(ILandroid/util/TypedValue;Z)Z
+08-19 01:36:45.485  1541  1541 I ClassHook: android.content.res.TypedArrayHook attachMethod obtain(Landroid/content/res/Resources;I)Landroid/content/res/TypedArray;
+08-19 01:36:45.486  1541  1541 I ClassHook: android.media.AudioManagerHook attachMethod getStreamVolume(I)I
+08-19 01:36:45.507  1541  1541 I ClassHook: android.media.MediaMetadataEditorHook attachMethod getString(ILjava/lang/String;)Ljava/lang/String;
+08-19 01:36:45.521  1541  1541 I ClassHook: android.media.MediaMetadataEditorHook attachMethod putString(ILjava/lang/String;)Landroid/media/MediaMetadataEditor;
+08-19 01:36:45.522  1541  1541 I ClassHook: android.media.MediaMetadataHook attachMethod getKeyFromMetadataEditorKey(I)Ljava/lang/String;
+08-19 01:36:45.537  1541  1541 I ClassHook: android.media.MediaPlayerHook attachMethod start()V
+08-19 01:36:45.547  1525  1525 I ServiceManager: Waiting for service media.camera.proxy...
+08-19 01:36:45.583  1541  1541 I art     : Thread[1,tid=1541,Native,Thread*=0x42576500,peer=0x12c45100,"main"] recursive attempt to load library "/system/lib/libmedia_jni.so"
+08-19 01:36:45.583  1541  1541 D MtpDeviceJNI: register_android_mtp_MtpDevice
+08-19 01:36:45.584  1541  1541 I art     : Thread[1,tid=1541,Native,Thread*=0x42576500,peer=0x12c45100,"main"] recursive attempt to load library "/system/lib/libmedia_jni.so"
+08-19 01:36:45.584  1541  1541 I art     : Thread[1,tid=1541,Native,Thread*=0x42576500,peer=0x12c45100,"main"] recursive attempt to load library "/system/lib/libmedia_jni.so"
+08-19 01:36:45.586  1541  1541 I ClassHook: android.media.MediaScannerMyMediaScannerClientHook attachMethod setMimeType(Ljava/lang/String;)V
+08-19 01:36:45.587  1541  1541 E ClassHook: Build proxy failed.
+08-19 01:36:45.587  1541  1541 E ClassHook: java.lang.RuntimeException: Couldn't get method Landroid/media/MediaScannerMyMediaScannerClientHook;.originalSetMimeType(JLjava/lang/Object;Ljava/lang/String;)V
+08-19 01:36:45.587  1541  1541 E ClassHook: 	at com.miui.internal.util.ClassProxy.attachMethodNative(Native Method)
+08-19 01:36:45.587  1541  1541 E ClassHook: 	at com.miui.internal.util.ClassProxy.attachMethod(SourceFile:184)
+08-19 01:36:45.587  1541  1541 E ClassHook: 	at miui.patchrom.ClassHook.buildProxy(ClassHook.java:61)
+08-19 01:36:45.587  1541  1541 E ClassHook: 	at java.lang.reflect.Method.invoke(Native Method)
+08-19 01:36:45.587  1541  1541 E ClassHook: 	at miui.patchrom.ClassHook.initHook(ClassHook.java:116)
+08-19 01:36:45.587  1541  1541 E ClassHook: 	at miui.patchrom.ClassHook.initCoreHook(ClassHook.java:93)
+08-19 01:36:45.587  1541  1541 E ClassHook: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java)
+08-19 01:36:45.588  1541  1541 I ClassHook: android.media.session.MediaSessionLegacyHelperHook attachMethod getOldMetadata(Landroid/media/MediaMetadata;II)Landroid/os/Bundle;
+08-19 01:36:45.598  1541  1541 I ClassHook: android.os.SystemVibratorHook attachMethod vibrate(ILjava/lang/String;JLandroid/media/AudioAttributes;)V
+08-19 01:36:45.598  1541  1541 I ClassHook: android.os.SystemVibratorHook attachMethod vibrate(ILjava/lang/String;[JILandroid/media/AudioAttributes;)V
+08-19 01:36:45.600  1541  1541 I ClassHook: android.preference.RingtonePreferenceHook attachMethod onPrepareRingtonePickerIntent(Landroid/content/Intent;)V
+08-19 01:36:45.615  1541  1541 I ClassHook: android.telephony.SignalStrengthHook attachMethod getCdmaLevel()I
+08-19 01:36:45.625  1541  1541 I ClassHook: android.telephony.SignalStrengthHook attachMethod getEvdoLevel()I
+08-19 01:36:45.625  1541  1541 I ClassHook: android.telephony.SignalStrengthHook attachMethod getGsmLevel()I
+08-19 01:36:45.626  1541  1541 I ClassHook: android.telephony.SignalStrengthHook attachMethod getLteLevel()I
+08-19 01:36:45.626  1541  1541 I ClassHook: android.telephony.SignalStrengthHook attachMethod getTdScdmaLevel()I
+08-19 01:36:45.627  1541  1541 I ClassHook: android.telephony.TelephonyManagerHook attachMethod setTelephonyProperty(ILjava/lang/String;Ljava/lang/String;)V
+08-19 01:36:45.637  1541  1541 I ClassHook: android.util.TypedValueHook attachMethod applyDimension(IFLandroid/util/DisplayMetrics;)F
+08-19 01:36:45.640  1541  1541 I ClassHook: android.view.LayoutInflaterHook attachMethod inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
+08-19 01:36:45.646  1541  1541 I ClassHook: android.view.ScaleGestureDetectorHook attachConstructor (Landroid/content/Context;Landroid/view/ScaleGestureDetector$OnScaleGestureListener;Landroid/os/Handler;)V
+08-19 01:36:45.652  1541  1541 I ClassHook: android.view.ViewDebugHook attachMethod writeValue(Ljava/io/BufferedWriter;Ljava/lang/Object;)V
+08-19 01:36:45.661  1541  1541 I ClassHook: android.view.ViewRootImplHook attachMethod setWindowStopped(Z)V
+08-19 01:36:45.667  1541  1541 I ClassHook: android.view.WindowHook attachMethod setFlags(II)V
+08-19 01:36:45.668  1541  1541 I ClassHook: android.view.WindowManagerGlobalHook attachMethod addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;Landroid/view/Display;Landroid/view/Window;)V
+08-19 01:36:45.669  1541  1541 I ClassHook: android.view.WindowManagerGlobalHook attachMethod updateViewLayout(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+08-19 01:36:45.669  1541  1541 I ClassHook: android.view.WindowManagerLayoutParamsHook attachMethod copyFrom(Landroid/view/WindowManager$LayoutParams;)I
+08-19 01:36:45.670  1541  1541 I ClassHook: android.view.WindowManagerLayoutParamsHook attachMethod toString()Ljava/lang/String;
+08-19 01:36:45.670  1541  1541 I ClassHook: android.view.WindowManagerLayoutParamsHook attachMethod writeToParcel(Landroid/os/Parcel;I)V
+08-19 01:36:45.670  1541  1541 I ClassHook: android.view.WindowManagerLayoutParamsHook attachConstructor (Landroid/os/Parcel;)V
+08-19 01:36:45.671  1541  1541 I ClassHook: android.webkit.WebViewFactoryHook attachMethod getProvider()Landroid/webkit/WebViewFactoryProvider;
+08-19 01:36:45.679  1541  1541 I ClassHook: android.webkit.WebViewHook attachConstructor (Landroid/content/Context;Landroid/util/AttributeSet;IILjava/util/Map;Z)V
+08-19 01:36:45.680  1541  1541 I ClassHook: android.widget.ToastHook attachMethod setType(I)V
+08-19 01:36:45.691  1541  1541 I ClassHook: android.widget.ToastHook attachMethod show()V
+08-19 01:36:45.692  1541  1541 I ClassHook: com.android.internal.os.RuntimeInitHook attachMethod commonInit()V
+08-19 01:36:45.693  1541  1541 I ClassHook: com.android.internal.os.ZygoteInitHook attachMethod registerZygoteSocket(Ljava/lang/String;)V
+08-19 01:36:45.694  1541  1541 I ClassHook: com.android.internal.policy.PhoneWindowHook attachMethod onKeyDown(IILandroid/view/KeyEvent;)Z
+08-19 01:36:45.716  1541  1541 I ClassHook: com.android.internal.policy.PhoneWindowHook attachMethod onKeyUp(IILandroid/view/KeyEvent;)Z
+08-19 01:36:45.717  1541  1541 I ClassHook: com.android.internal.telephony.ITelephonyRegistryStubHook attachMethod onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z
+08-19 01:36:45.732  1541  1541 I ClassHook: com.android.internal.telephony.ITelephonyRegistryStubProxyHook attachMethod getMiuiTelephony()Lmiui/telephony/IMiuiTelephony;
+08-19 01:36:45.735  1541  1541 I ClassHook: com.android.internal.telephony.ITelephonyRegistryStubProxyHook attachMethod setMiuiTelephony(Lmiui/telephony/IMiuiTelephony;)V
+08-19 01:36:45.751  1541  1541 I ClassHook: com.android.internal.telephony.PhoneBaseHook attachMethod getSystemProperty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+08-19 01:36:45.762  1541  1541 I ClassHook: com.android.internal.telephony.PhoneBaseHook attachMethod setSystemProperty(Ljava/lang/String;Ljava/lang/String;)V
+08-19 01:36:45.763  1541  1541 I ClassHook: com.android.internal.telephony.PhoneFactoryHook attachMethod makeDefaultPhone(Landroid/content/Context;)V
+08-19 01:36:45.765  1541  1541 I ClassHook: com.android.internal.telephony.SubscriptionManagerHook attachMethod putPhoneIdAndSubIdExtra(Landroid/content/Intent;II)V
+08-19 01:36:45.766  1541  1541 I ClassHook: com.android.internal.telephony.cat.CommandParamsFactoryHook attachMethod sendCmdParams(Lcom/android/internal/telephony/cat/ResultCode;)V
+08-19 01:36:45.779  1541  1541 I ClassHook: com.android.internal.telephony.cdma.CdmaLteServiceStateTrackerHook attachMethod handleMessage(Landroid/os/Message;)V
+08-19 01:36:45.821  1541  1541 I LIBSEC  : apply sec hook legacy
+08-19 01:36:45.827  1541  1541 D Zygote  : begin preload
+08-19 01:36:45.827  1541  1541 I Zygote  : Preloading classes...
+08-19 01:36:45.838  1541  1541 I art     : Rejecting re-init on previously-failed class java.lang.Class<android.app.ResourcesManager>
+08-19 01:36:45.838  1541  1541 I art     : Rejecting re-init on previously-failed class java.lang.Class<android.app.ResourcesManager>
+08-19 01:36:45.844  1541  1541 W Zygote  : Class not found for preloading: android.app.ResourcesManager
+08-19 01:36:45.977  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:36:46.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 65 times
+08-19 01:36:46.185  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:36:46.253  1519  1519 V NatController: runCmd(/system/bin/iptables -w -F natctrl_FORWARD) res=0
+08-19 01:36:46.274  1519  1519 V NatController: runCmd(/system/bin/iptables -w -A natctrl_FORWARD -j DROP) res=0
+08-19 01:36:46.293  1519  1519 V NatController: runCmd(/system/bin/iptables -w -t nat -F natctrl_nat_POSTROUTING) res=0
+08-19 01:36:46.313  1519  1519 V NatController: runCmd(/system/bin/iptables -w -F natctrl_tether_counters) res=1
+08-19 01:36:46.335  1519  1519 V NatController: runCmd(/system/bin/iptables -w -X natctrl_tether_counters) res=1
+08-19 01:36:46.353  1519  1519 V NatController: runCmd(/system/bin/iptables -w -N natctrl_tether_counters) res=0
+08-19 01:36:46.372  1519  1519 V NatController: runCmd(/system/bin/iptables -w -t mangle -A natctrl_mangle_FORWARD -p tcp --tcp-flags SYN SYN -j TCPMSS --clamp-mss-to-pmtu) res=0
+08-19 01:36:46.548  1525  1525 I ServiceManager: Waiting for service media.camera.proxy...
+08-19 01:36:46.623  1541  1541 E Minikin : addFont failed to create font /system/fonts/NanumGothic.ttf
+08-19 01:36:46.623  1541  1541 E Minikin : addFont failed to create font /system/fonts/DroidSansFallback.ttf
+08-19 01:36:46.623  1541  1541 E Minikin : addFont failed to create font /system/fonts/MTLmr3m.ttf
+08-19 01:36:46.772  1541  1541 V DngCreator_JNI: DngCreator_nativeClassInit:
+08-19 01:36:47.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:36:47.281  1541  1541 W Zygote  : Class not found for preloading: android.widget.Editor$CursorAnchorInfoNotifier
+08-19 01:36:47.363  1541  1541 W System  : ClassLoader referenced unknown path: /system/framework/tcmclient.jar
+--------- beginning of crash
+08-19 01:36:47.375  1541  1541 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x14 in tid 1541 (main)
+08-19 01:36:47.376  1521  1521 E DEBUG   : debuggerd: attached task 1541 does not match request: expected pid=1541,uid=0,gid=9999, actual pid=1541,uid=0,gid=0
+08-19 01:36:47.399  2469  2469 I DEBUG   : debuggerd: starting
+08-19 01:36:47.548  1525  1525 I ServiceManager: Waiting for service media.camera.proxy...
+08-19 01:36:47.704  1519  1519 E Netd    : cannot find interface dummy0
+08-19 01:36:47.706  1519  1519 D MDnsDS  : MDnsSdListener::Hander starting up
+08-19 01:36:47.706  1519  2523 D MDnsDS  : MDnsSdListener starting to monitor
+08-19 01:36:47.706  1519  2523 D MDnsDS  : Going to poll with pollCount 1
+08-19 01:36:47.982  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:36:48.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:36:48.178  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:36:48.549  1525  1525 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+08-19 01:36:48.551  1525  1525 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+08-19 01:36:48.576  1525  1525 W linker  : /system/lib/lib_Samsung_Resampler.so has text relocations. This is wasting memory and prevents security hardening. Please fix.
+08-19 01:36:48.577  1525  1525 D ALSAControl: Opening Control
+08-19 01:36:48.585  1525  1525 D ALSAControl: Opening Control passed mHandle = 0x41459910
+08-19 01:36:48.586  1525  1525 D ALSAControl: [Hardware.configuration.SSPI.1.index]=1
+08-19 01:36:48.586  1525  1525 D ALSAControl: [Hardware.configuration.SSPI.2.index]=0
+08-19 01:36:48.586  1525  1525 D ALSAControl: [Hardware.configuration.SSPI.3.index]=0
+08-19 01:36:48.586  1525  1525 D ALSAControl: setting up MIC sections
+08-19 01:36:48.586  1525  1525 D ALSAControl: MIC section 1: mic number 0=1
+08-19 01:36:48.586  1525  1525 D ALSAControl: MIC section 1: mic number 1=4
+08-19 01:36:48.586  1525  1525 D ALSAControl: micVal=1, 4, 0, 0, 0, 0
+08-19 01:36:48.586  1525  1525 D ALSAControl: MIC section 2: mic number 0=2
+08-19 01:36:48.586  1525  1525 D ALSAControl: MIC section 2: mic number 1=4
+08-19 01:36:48.586  1525  1525 D ALSAControl: micVal=2, 4, 0, 0, 0, 0
+08-19 01:36:48.586  1525  1525 D ALSAControl: MIC section 3: mic number 0=1
+08-19 01:36:48.587  1525  1525 D ALSAControl: MIC section 3: mic number 1=4
+08-19 01:36:48.587  1525  1525 D ALSAControl: micVal=1, 4, 0, 0, 0, 0
+08-19 01:36:48.587  1525  1525 D ALSAControl: MIC section 4: mic number 0=9
+08-19 01:36:48.587  1525  1525 D ALSAControl: MIC section 4: mic number 1=4
+08-19 01:36:48.587  1525  1525 D ALSAControl: micVal=9, 4, 0, 0, 0, 0
+08-19 01:36:48.587  1525  1525 D ALSAControl: MIC section 5: mic number 0=1
+08-19 01:36:48.587  1525  1525 D ALSAControl: MIC section 5: mic number 1=4
+08-19 01:36:48.587  1525  1525 D ALSAControl: micVal=1, 4, 0, 0, 0, 0
+08-19 01:36:48.587  1525  1525 E AudioHardwareALSA: Voice Volume min = 0, max = 5
+08-19 01:36:48.587  1525  1525 E AudioHardwareALSA: FM Volume min = 0, max = 14
+08-19 01:36:48.591  1525  1525 I AudioFlinger: loadHwModule() Loaded primary audio interface from LEGACY Audio HW HAL (audio) handle 1
+08-19 01:36:48.591  1525  1525 I AudioFlinger: openOutput(), module 1 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags 2
+08-19 01:36:48.591  1525  1525 D AudioHardwareALSA: openOutputStream called for devices: 0x00000002 sampleRate = 48000
+08-19 01:36:48.591  1525  1525 I AudioHardwareALSA: persist.debug.audio.pcmout2 = ON
+08-19 01:36:48.591  1525  1525 D ALSA_Default: open called for devices 00000002 in mode 0...
+08-19 01:36:48.591  1525  1525 D ALSA_Default: deviceName: devString [pcmout1], channels 2, sampleRate 48000 
+08-19 01:36:48.596  1525  1525 D ALSA_Default: open called for pcmout1
+08-19 01:36:48.598  1525  1525 V ALSA_Default: Set PLAYBACK PCM format to S16_LE (Signed 16 bit Little Endian)
+08-19 01:36:48.599  1525  1525 V ALSA_Default: Using 2 channels for PLAYBACK.
+08-19 01:36:48.599  1525  1525 V ALSA_Default: Set device 0 sample rate to 48000 HZ
+08-19 01:36:48.599  1525  1525 V ALSA_Default: Buffer size: 8192
+08-19 01:36:48.599  1525  1525 V ALSA_Default: Latency: 170666
+08-19 01:36:48.599  1525  1525 V ALSA_Default: Period Size: 4096
+08-19 01:36:48.599  1525  1525 D ALSA_Default: startThreshold=8192 stopThreshold=8192
+08-19 01:36:48.599  1525  1525 I ALSA_Default: Initialized ALSA PLAYBACK device pcmout1
+08-19 01:36:48.599  1525  1525 D SoundBooster: SoundBoosterInit(): sampleRate=44100
+08-19 01:36:48.599  1525  1525 D AudioHardwareALSA: getPlaybackDevice for device = 0x2 returned sink = 4
+08-19 01:36:48.600  1525  1525 D ALSAStreamOps: ALSAStreamOps::set format=1 channel=3 rate=48000
+08-19 01:36:48.600  1525  1525 D ALSAStreamOps: ALSAStreamOps::set rate=48000
+08-19 01:36:48.600  1525  1525 I AudioFlinger: AudioStreamOut::open(), mHalFormatIsLinearPcm = 1
+08-19 01:36:48.600  1525  1525 I ALSAStreamOps:  CFG_AUD_BUF bufferSize =16384 P
+08-19 01:36:48.600  1525  1525 I AudioFlinger: HAL output buffer size 4096 frames, normal sink buffer size 4096 frames
+08-19 01:36:48.616  1525  1525 I BufferProvider: found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+08-19 01:36:48.616  1525  1525 I ALSAStreamOps:  CFG_AUD_BUF bufferSize =16384 P
+08-19 01:36:48.616  1525  1525 I AudioFlinger: Using module 1 has the primary audio interface
+08-19 01:36:48.616  1525  1525 D AudioHardwareALSA: setMode called to enable voice path mode=0 mMode=0
+08-19 01:36:48.617  1525  2531 I AudioFlinger: AudioFlinger's thread 0x42c00000 ready to run
+08-19 01:36:48.617  1525  2531 D AudioStreamOutALSA: AudioStreamOutALSA::standby--pause, rate = 48000 
+08-19 01:36:48.617  1525  2531 I AudioStreamOutALSA: dump.audio.pcm = OFF
+08-19 01:36:48.617  1525  2531 V AudioStreamOutALSA: Data Dump is disabled
+08-19 01:36:48.617  1525  2531 V ALSAStreamOps: setParameters() routing=2 for playback rate=48000 modechanging=0 mode=0
+08-19 01:36:48.617  1525  2531 V ALSAStreamOps: setParameters() mIsRealCall=0
+08-19 01:36:48.617  1525  2531 D ALSAStreamOps: ALSAStreamOps mParent->mModeChanging = 0
+08-19 01:36:48.617  1525  2531 D ALSAStreamOps: curDevice = 0x2,newDevice = 0x2
+08-19 01:36:48.617  1525  2531 D ALSAStreamOps: setParameters() VoiceOnCounter 0 VoiceCallSw 0 device 2 curDev 2, mode 0, wait for mLock_voiceOn...
+08-19 01:36:48.617  1525  2531 D ALSAStreamOps: setParameters() get mLock_voiceOn
+08-19 01:36:48.617  1525  2531 E AudioFlinger: no wake lock to update!
+08-19 01:36:48.618  1525  2529 D AudioHardwareALSA: SetVoiceVolume() volume = 1.000000, mVoipVolFlag = 0
+08-19 01:36:48.618  1525  2529 D AudioHardwareALSA: SetVoiceVolume() - volume 1.000000, vol 5, vcVolMin 0, vcVolMax 5
+08-19 01:36:48.619  1525  1525 I AudioFlinger: openOutput(), module 1 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags 0
+08-19 01:36:48.619  1525  1525 D AudioHardwareALSA: openOutputStream called for devices: 0x00000002 sampleRate = 48000
+08-19 01:36:48.619  1525  1525 I AudioHardwareALSA: persist.debug.audio.pcmout2 = ON
+08-19 01:36:48.619  1525  1525 D AudioHardwareALSA: openOutputStream Unexpected mpOutput=0x41464188
+08-19 01:36:48.619  1525  1525 D ALSA_Default: open called for devices 00000002 in mode 0...
+08-19 01:36:48.619  1525  1525 D ALSA_Default: deviceName: devString [pcmout1], channels 2, sampleRate 48000 
+08-19 01:36:48.620  1525  1525 D ALSA_Default: open called for pcmout1
+08-19 01:36:48.620  1525  1525 V ALSA_Default: Set PLAYBACK PCM format to S16_LE (Signed 16 bit Little Endian)
+08-19 01:36:48.620  1525  1525 V ALSA_Default: Using 2 channels for PLAYBACK.
+08-19 01:36:48.620  1525  1525 V ALSA_Default: Set device 2 sample rate to 48000 HZ
+08-19 01:36:48.620  1525  1525 V ALSA_Default: Buffer size: 8192
+08-19 01:36:48.620  1525  1525 V ALSA_Default: Latency: 170666
+08-19 01:36:48.620  1525  1525 V ALSA_Default: Period Size: 4096
+08-19 01:36:48.621  1525  1525 D ALSA_Default: startThreshold=8192 stopThreshold=8192
+08-19 01:36:48.621  1525  1525 I ALSA_Default: Initialized ALSA PLAYBACK device pcmout1
+08-19 01:36:48.621  1525  1525 D SoundBooster: SoundBoosterInit(): sampleRate=44100
+08-19 01:36:48.621  1525  1525 D AudioHardwareALSA: getPlaybackDevice for device = 0x2 returned sink = 4
+08-19 01:36:48.621  1525  1525 D ALSAStreamOps: ALSAStreamOps::set format=1 channel=3 rate=48000
+08-19 01:36:48.621  1525  1525 D ALSAStreamOps: ALSAStreamOps::set rate=48000
+08-19 01:36:48.621  1525  1525 I AudioFlinger: AudioStreamOut::open(), mHalFormatIsLinearPcm = 1
+08-19 01:36:48.621  1525  1525 I ALSAStreamOps:  CFG_AUD_BUF bufferSize =16384 P
+08-19 01:36:48.621  1525  1525 I AudioFlinger: HAL output buffer size 4096 frames, normal sink buffer size 4096 frames
+08-19 01:36:48.622  1525  1525 I ALSAStreamOps:  CFG_AUD_BUF bufferSize =16384 P
+08-19 01:36:48.622  1525  2532 I AudioFlinger: AudioFlinger's thread 0x43180000 ready to run
+08-19 01:36:48.622  1525  2532 V ALSAStreamOps: setParameters() routing=2 for playback rate=48000 modechanging=0 mode=0
+08-19 01:36:48.622  1525  2532 V ALSAStreamOps: setParameters() mIsRealCall=0
+08-19 01:36:48.622  1525  2532 D ALSAStreamOps: ALSAStreamOps mParent->mModeChanging = 0
+08-19 01:36:48.622  1525  2532 D ALSAStreamOps: curDevice = 0x2,newDevice = 0x2
+08-19 01:36:48.622  1525  2532 D ALSAStreamOps: setParameters() VoiceOnCounter 0 VoiceCallSw 0 device 2 curDev 2, mode 0, wait for mLock_voiceOn...
+08-19 01:36:48.622  1525  2532 D ALSAStreamOps: setParameters() get mLock_voiceOn
+08-19 01:36:48.622  1525  2532 D AudioStreamOutALSA: AudioStreamOutALSA::standby--pause, rate = 48000 
+08-19 01:36:48.622  1525  2532 I AudioStreamOutALSA: dump.audio.pcm = OFF
+08-19 01:36:48.622  1525  2532 V AudioStreamOutALSA: Data Dump is disabled
+08-19 01:36:48.623  1525  2532 E AudioFlinger: no wake lock to update!
+08-19 01:36:48.623  1525  1525 E legacy_audio_hw_hal: int android_audio_legacy::adev_open_input_stream(audio_hw_device*, audio_io_handle_t, audio_devices_t, audio_config*, audio_stream_in**): devices before=0x80000004
+08-19 01:36:48.623  1525  1525 E legacy_audio_hw_hal: int android_audio_legacy::adev_open_input_stream(audio_hw_device*, audio_io_handle_t, audio_devices_t, audio_config*, audio_stream_in**): devices after=0x40000
+08-19 01:36:48.623  1525  1525 D AudioHardwareALSA: openInputStream device=40000 format=1 channel=12 rate=48000
+08-19 01:36:48.623  1525  1525 D AudioHardwareALSA: AudioHardwareALSA::openInputStream it->devices 0x84ff0000, devices 0x40000 
+08-19 01:36:48.623  1525  1525 D ALSA_Default: open called for devices 00040000 in mode 0...
+08-19 01:36:48.623  1525  1525 D ALSA_Default: deviceName: devString [hqaudioin_hpf], channels 1, sampleRate 48000 
+08-19 01:36:48.626  1525  1525 I HPF_FILTER: Filter path=/system/usr/lib/alsa-lib/libbcm_hp_filter.so enable=1 float=9.340000 int=3 
+08-19 01:36:48.628  1525  1525 I HPF_FILTER: loaded filter id=HPFT path=/system/usr/lib/alsa-lib/libbcm_hp_filter.so bcmf=0x406a4004 handle=0x40041684
+08-19 01:36:48.628  1525  1525 I HPF_FILTER: DLL filter loaded /system/usr/lib/alsa-lib/libbcm_hp_filter.so version 1000000
+08-19 01:36:48.628  1525  1525 D ALSA_Default: open called for hqaudioin_hpf
+08-19 01:36:48.628  1525  1525 D ALSA_Default: setHardwareParams: SND_PCM_STREAM_CAPTURE sampleRate 48000, channels 1
+08-19 01:36:48.628  1525  1525 V ALSA_Default: Set CAPTURE PCM format to S16_LE (Signed 16 bit Little Endian)
+08-19 01:36:48.628  1525  1525 V ALSA_Default: Using 1 channel for CAPTURE.
+08-19 01:36:48.628  1525  1525 V ALSA_Default: Set device 0 sample rate to 48000 HZ
+08-19 01:36:48.628  1525  1525 V ALSA_Default: Buffer size: 4096
+08-19 01:36:48.628  1525  1525 V ALSA_Default: Latency: 85333
+08-19 01:36:48.628  1525  1525 V ALSA_Default: Period Size: 2048
+08-19 01:36:48.629  1525  1525 I HPF_FILTER: bcmfilter_init
+08-19 01:36:48.629  1525  1525 I ALSA_Default: Initialized ALSA CAPTURE device hqaudioin_hpf
+08-19 01:36:48.629  1525  1525 D AcousticsModule: Acoustics set_params stub called with 0.
+08-19 01:36:48.629  1525  1525 I samsungRecord: [samsungrecord] SamsungRecInit 
+08-19 01:36:48.629  1525  1525 I samsungRecord: 1
+08-19 01:36:48.629  1525  1525 D AudioHardwareALSA: getRecordingDevice for device = 0x40000 returned source = 1
+08-19 01:36:48.629  1525  1525 D ALSAStreamOps: ALSAStreamOps::set format=1 channel=12 rate=48000
+08-19 01:36:48.629  1525  1525 D ALSAStreamOps: ALSAStreamOps::set rate=48000
+08-19 01:36:48.630  1525  1525 I HPF_FILTER: bcmfilter_close
+08-19 01:36:48.630  1525  1525 D ALSA_Default: open called for devices 00040000 in mode 0...
+08-19 01:36:48.630  1525  1525 D ALSA_Default: deviceName: devString [hqaudioin_hpf], channels 2, sampleRate 48000 
+08-19 01:36:48.630  1525  1525 I HPF_FILTER: Filter path=/system/usr/lib/alsa-lib/libbcm_hp_filter.so enable=1 float=9.340000 int=3 
+08-19 01:36:48.631  1525  1525 I HPF_FILTER: loaded filter id=HPFT path=/system/usr/lib/alsa-lib/libbcm_hp_filter.so bcmf=0x406a4004 handle=0x40041684
+08-19 01:36:48.631  1525  1525 I HPF_FILTER: DLL filter loaded /system/usr/lib/alsa-lib/libbcm_hp_filter.so version 1000000
+08-19 01:36:48.631  1525  1525 D ALSA_Default: open called for hqaudioin_hpf
+08-19 01:36:48.631  1525  1525 D ALSA_Default: setHardwareParams: SND_PCM_STREAM_CAPTURE sampleRate 48000, channels 2
+08-19 01:36:48.631  1525  1525 V ALSA_Default: Set CAPTURE PCM format to S16_LE (Signed 16 bit Little Endian)
+08-19 01:36:48.631  1525  1525 V ALSA_Default: Using 2 channels for CAPTURE.
+08-19 01:36:48.631  1525  1525 V ALSA_Default: Set device 262144 sample rate to 48000 HZ
+08-19 01:36:48.631  1525  1525 V ALSA_Default: Buffer size: 4096
+08-19 01:36:48.631  1525  1525 V ALSA_Default: Latency: 85333
+08-19 01:36:48.631  1525  1525 V ALSA_Default: Period Size: 2048
+08-19 01:36:48.632  1525  1525 I HPF_FILTER: bcmfilter_init
+08-19 01:36:48.632  1525  1525 I ALSA_Default: Initialized ALSA CAPTURE device hqaudioin_hpf
+08-19 01:36:48.632  1525  1525 D AudioStreamInALSA: AudioStreamInALSA::set mSamplingRate = 48000, BageIn = 0, IsInCall = 0!!!
+08-19 01:36:48.632  1525  1525 D AudioStreamInALSA: AudioStreamInALSA::sampleRate 48000
+08-19 01:36:48.632  1525  1525 D AudioStreamInALSA: AudioStreamInALSA::bufferSize() mSamplingRate 48000 channels 2, size 2048
+08-19 01:36:48.632  1525  1525 D AudioStreamInALSA: AudioStreamInALSA::bufferSize() mSamplingRate 48000 channels 2, size 2048
+08-19 01:36:48.632  1525  1525 D AudioStreamInALSA: AudioStreamInALSA::sampleRate 48000
+08-19 01:36:48.633  1525  2534 I AudioFlinger: AudioFlinger's thread 0x43100000 ready to run
+08-19 01:36:48.634  1525  1525 D AudioHardwareALSA: AudioHardwareALSA::closeInputStream
+08-19 01:36:48.634  1525  1525 V AudioHardwareALSA: CloseInputStream:refCntInp(updated) =0
+08-19 01:36:48.634  1525  1525 D AcousticsModule: Acoustics close stub called.
+08-19 01:36:48.634  1525  1525 V AudioHardwareALSA: setAppProfile() routing=0, mode = 0
+08-19 01:36:48.634  1525  1525 V AudioHardwareALSA: setAppProfile() device = 0x0, mBargeIn=0
+08-19 01:36:48.634  1525  1525 E AudioHardwareALSA: Removing recording profile : -1
+08-19 01:36:48.634  1525  1525 W AudioHardwareALSA: EnableAppProfile profile -1 is out of range [0, 17] index=4
+08-19 01:36:48.634  1525  1525 V AudioHardwareALSA: setAppProfile() mVoipMode=0, mGvsMode=0, mBargeIn=0, mRecLQMode=0, value[0] = -1
+08-19 01:36:48.634  1525  1525 D ALSAStreamOps: Closing the capture device @ rate 48000 
+08-19 01:36:48.634  1525  1525 I HPF_FILTER: bcmfilter_close
+08-19 01:36:48.635  1525  1525 D ALSAStreamOps: Closed the capture device @ rate 48000 
+08-19 01:36:48.635  1525  2533 E FastThread: did not receive expected priority boost
+08-19 01:36:48.635  1525  1525 E legacy_audio_hw_hal: int android_audio_legacy::adev_open_input_stream(audio_hw_device*, audio_io_handle_t, audio_devices_t, audio_config*, audio_stream_in**): devices before=0x80000004
+08-19 01:36:48.635  1525  1525 E legacy_audio_hw_hal: int android_audio_legacy::adev_open_input_stream(audio_hw_device*, audio_io_handle_t, audio_devices_t, audio_config*, audio_stream_in**): devices after=0x40000
+08-19 01:36:48.635  1525  1525 D AudioHardwareALSA: openInputStream device=40000 format=1 channel=12 rate=48000
+08-19 01:36:48.635  1525  1525 D AudioHardwareALSA: AudioHardwareALSA::openInputStream it->devices 0x84ff0000, devices 0x40000 
+08-19 01:36:48.635  1525  1525 D ALSA_Default: open called for devices 00040000 in mode 0...
+08-19 01:36:48.635  1525  1525 D ALSA_Default: deviceName: devString [hqaudioin_hpf], channels 1, sampleRate 48000 
+08-19 01:36:48.636  1525  1525 I HPF_FILTER: Filter path=/system/usr/lib/alsa-lib/libbcm_hp_filter.so enable=1 float=9.340000 int=3 
+08-19 01:36:48.637  1525  1525 I HPF_FILTER: loaded filter id=HPFT path=/system/usr/lib/alsa-lib/libbcm_hp_filter.so bcmf=0x406a4004 handle=0x40041684
+08-19 01:36:48.637  1525  1525 I HPF_FILTER: DLL filter loaded /system/usr/lib/alsa-lib/libbcm_hp_filter.so version 1000000
+08-19 01:36:48.637  1525  1525 D ALSA_Default: open called for hqaudioin_hpf
+08-19 01:36:48.637  1525  1525 D ALSA_Default: setHardwareParams: SND_PCM_STREAM_CAPTURE sampleRate 48000, channels 1
+08-19 01:36:48.637  1525  1525 V ALSA_Default: Set CAPTURE PCM format to S16_LE (Signed 16 bit Little Endian)
+08-19 01:36:48.637  1525  1525 V ALSA_Default: Using 1 channel for CAPTURE.
+08-19 01:36:48.637  1525  1525 V ALSA_Default: Set device 262144 sample rate to 48000 HZ
+08-19 01:36:48.637  1525  1525 V ALSA_Default: Buffer size: 4096
+08-19 01:36:48.637  1525  1525 V ALSA_Default: Latency: 85333
+08-19 01:36:48.637  1525  1525 V ALSA_Default: Period Size: 2048
+08-19 01:36:48.638  1525  1525 I HPF_FILTER: bcmfilter_init
+08-19 01:36:48.638  1525  1525 I ALSA_Default: Initialized ALSA CAPTURE device hqaudioin_hpf
+08-19 01:36:48.638  1525  1525 D AcousticsModule: Acoustics set_params stub called with 0.
+08-19 01:36:48.638  1525  1525 I samsungRecord: [samsungrecord] SamsungRecInit 
+08-19 01:36:48.638  1525  1525 I samsungRecord: 1
+08-19 01:36:48.638  1525  1525 D AudioHardwareALSA: getRecordingDevice for device = 0x40000 returned source = 1
+08-19 01:36:48.638  1525  1525 D ALSAStreamOps: ALSAStreamOps::set format=1 channel=12 rate=48000
+08-19 01:36:48.638  1525  1525 D ALSAStreamOps: ALSAStreamOps::set rate=48000
+08-19 01:36:48.638  1525  1525 I HPF_FILTER: bcmfilter_close
+08-19 01:36:48.638  1525  1525 D ALSA_Default: open called for devices 00040000 in mode 0...
+08-19 01:36:48.638  1525  1525 D ALSA_Default: deviceName: devString [hqaudioin_hpf], channels 2, sampleRate 48000 
+08-19 01:36:48.639  1525  1525 I HPF_FILTER: Filter path=/system/usr/lib/alsa-lib/libbcm_hp_filter.so enable=1 float=9.340000 int=3 
+08-19 01:36:48.640  1525  1525 I HPF_FILTER: loaded filter id=HPFT path=/system/usr/lib/alsa-lib/libbcm_hp_filter.so bcmf=0x406a4004 handle=0x40041684
+08-19 01:36:48.640  1525  1525 I HPF_FILTER: DLL filter loaded /system/usr/lib/alsa-lib/libbcm_hp_filter.so version 1000000
+08-19 01:36:48.640  1525  1525 D ALSA_Default: open called for hqaudioin_hpf
+08-19 01:36:48.640  1525  1525 D ALSA_Default: setHardwareParams: SND_PCM_STREAM_CAPTURE sampleRate 48000, channels 2
+08-19 01:36:48.640  1525  1525 V ALSA_Default: Set CAPTURE PCM format to S16_LE (Signed 16 bit Little Endian)
+08-19 01:36:48.640  1525  1525 V ALSA_Default: Using 2 channels for CAPTURE.
+08-19 01:36:48.640  1525  1525 V ALSA_Default: Set device 262144 sample rate to 48000 HZ
+08-19 01:36:48.640  1525  1525 V ALSA_Default: Buffer size: 4096
+08-19 01:36:48.640  1525  1525 V ALSA_Default: Latency: 85333
+08-19 01:36:48.640  1525  1525 V ALSA_Default: Period Size: 2048
+08-19 01:36:48.642  1525  1525 I HPF_FILTER: bcmfilter_init
+08-19 01:36:48.642  1525  1525 I ALSA_Default: Initialized ALSA CAPTURE device hqaudioin_hpf
+08-19 01:36:48.642  1525  1525 D AudioStreamInALSA: AudioStreamInALSA::set mSamplingRate = 48000, BageIn = 0, IsInCall = 0!!!
+08-19 01:36:48.642  1525  1525 D AudioStreamInALSA: AudioStreamInALSA::sampleRate 48000
+08-19 01:36:48.642  1525  1525 D AudioStreamInALSA: AudioStreamInALSA::bufferSize() mSamplingRate 48000 channels 2, size 2048
+08-19 01:36:48.642  1525  1525 D AudioStreamInALSA: AudioStreamInALSA::bufferSize() mSamplingRate 48000 channels 2, size 2048
+08-19 01:36:48.642  1525  1525 D AudioStreamInALSA: AudioStreamInALSA::sampleRate 48000
+08-19 01:36:48.643  1525  2536 I AudioFlinger: AudioFlinger's thread 0x43100000 ready to run
+08-19 01:36:48.643  1525  2536 D AudioStreamInALSA: AudioStreamInALSA::standby--pause, rate = 48000 
+08-19 01:36:48.643  1525  2536 D AudioStreamInALSA: AudioStreamInALSA::standby--pause, rate = 48000 
+08-19 01:36:48.644  1525  1525 D AudioHardwareALSA: AudioHardwareALSA::closeInputStream
+08-19 01:36:48.644  1525  1525 V AudioHardwareALSA: CloseInputStream:refCntInp(updated) =0
+08-19 01:36:48.644  1525  1525 D AcousticsModule: Acoustics close stub called.
+08-19 01:36:48.644  1525  1525 V AudioHardwareALSA: setAppProfile() routing=0, mode = 0
+08-19 01:36:48.644  1525  1525 V AudioHardwareALSA: setAppProfile() device = 0x0, mBargeIn=0
+08-19 01:36:48.644  1525  1525 E AudioHardwareALSA: Removing recording profile : -1
+08-19 01:36:48.644  1525  1525 W AudioHardwareALSA: EnableAppProfile profile -1 is out of range [0, 17] index=4
+08-19 01:36:48.644  1525  1525 V AudioHardwareALSA: setAppProfile() mVoipMode=0, mGvsMode=0, mBargeIn=0, mRecLQMode=0, value[0] = -1
+08-19 01:36:48.644  1525  1525 D ALSAStreamOps: Closing the capture device @ rate 48000 
+08-19 01:36:48.644  1525  1525 I HPF_FILTER: bcmfilter_close
+08-19 01:36:48.645  1525  1525 D ALSAStreamOps: Closed the capture device @ rate 48000 
+08-19 01:36:48.645  1525  2535 E FastThread: did not receive expected priority boost
+08-19 01:36:48.648  1525  1525 I bt_a2dp_hw: adev_open:  adev_open in A2dp_hw module
+08-19 01:36:48.648  1525  1525 I AudioFlinger: loadHwModule() Loaded a2dp audio interface from A2DP Audio HW HAL (audio) handle 8
+08-19 01:36:48.651  1525  1525 I r_submix: adev_open(name=audio_hw_if)
+08-19 01:36:48.652  1525  1525 I r_submix: adev_init_check()
+08-19 01:36:48.652  1525  1525 I AudioFlinger: loadHwModule() Loaded r_submix audio interface from Wifi Display audio HAL (audio) handle 9
+08-19 01:36:48.653  1525  1525 E SoundTriggerHwService: couldn't load sound trigger module sound_trigger.primary (No such file or directory)
+08-19 01:36:48.653  1525  1525 I RadioService: RadioService
+08-19 01:36:48.653  1525  1525 I RadioService: onFirstRef
+08-19 01:36:48.653  1525  1525 E RadioService: couldn't load radio module radio.primary (No such file or directory)
+08-19 01:36:49.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:36:49.976  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:36:50.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:36:50.187  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:36:51.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:36:51.985  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:36:52.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:36:52.181  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:36:53.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:36:53.979  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:36:54.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:36:54.190  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:36:55.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:36:55.988  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:36:56.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:36:56.184  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:36:57.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:36:57.982  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:36:58.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:36:58.179  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:36:59.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:36:59.991  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:37:00.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:37:00.187  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:37:01.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:37:01.985  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:37:02.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:37:02.181  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:37:03.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:37:03.981  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:37:04.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:37:04.190  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:37:05.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:37:05.988  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:37:06.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:37:06.184  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:37:07.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:37:07.982  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:37:08.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:37:08.193  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:37:09.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:37:09.991  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:37:10.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:37:10.187  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:37:11.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:37:11.985  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:37:12.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:37:12.183  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:37:13.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:37:13.994  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:37:14.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:37:14.190  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:37:15.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:37:15.988  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:37:16.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:37:16.184  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:37:17.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:37:17.997  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:37:18.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:37:18.193  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:37:19.013  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:37:19.991  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:37:20.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:37:20.187  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:37:21.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:37:21.986  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:37:22.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:37:22.196  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:37:23.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:37:23.994  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:37:24.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:37:24.190  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:37:25.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:37:25.988  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:37:26.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:37:26.199  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:37:27.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:37:27.996  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:37:28.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:37:28.193  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:37:29.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:37:29.990  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:37:30.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:37:30.189  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:37:31.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:37:32.000  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:37:32.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:37:32.196  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:37:33.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:37:33.993  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:37:34.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:37:34.190  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:37:35.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:37:36.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:37:36.003  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:37:37.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:37:37.996  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:37:38.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:37:38.193  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:37:39.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:37:39.992  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:37:40.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:37:40.202  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:37:41.013  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:37:41.999  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:37:42.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:37:42.196  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:37:43.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:37:43.993  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:37:44.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:37:44.205  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:37:45.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:37:46.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:37:46.003  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:37:47.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:37:47.996  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:37:48.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:37:48.194  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:37:49.013  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:37:50.005  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:37:50.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:37:51.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:37:51.999  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:37:52.013  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:37:52.196  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:37:53.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:37:54.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:37:54.008  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:37:55.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:37:56.002  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:37:56.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:37:57.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:37:57.998  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:37:58.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:37:58.207  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:37:59.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:38:00.005  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:38:00.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:38:01.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:38:01.999  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:38:02.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:38:02.210  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:38:03.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:38:04.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:38:04.008  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:38:05.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:38:06.002  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:38:06.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:38:07.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:38:08.011  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:38:08.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:38:09.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:38:10.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:38:10.005  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:38:11.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:38:12.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:38:12.014  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:38:13.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:38:14.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:38:14.008  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:38:15.013  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:38:16.003  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:38:16.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:38:17.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:38:18.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:38:18.011  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:38:19.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:38:20.005  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:38:20.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:38:21.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:38:22.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:38:22.014  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:38:23.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:38:24.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:38:24.008  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:38:25.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:38:26.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:38:26.017  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:38:27.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:38:28.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:38:28.011  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:38:29.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:38:30.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:38:30.020  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:38:31.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:38:32.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:38:32.013  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:38:33.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:38:34.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:38:34.009  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:38:35.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:38:36.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:38:36.016  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:38:37.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:38:38.010  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:38:38.013  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:38:39.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:38:40.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:38:40.019  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:38:41.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:38:42.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:38:42.013  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:38:43.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:38:44.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:38:44.022  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:38:45.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:38:46.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:38:46.016  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:38:47.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:38:48.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:38:48.025  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:38:49.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:38:50.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:38:50.019  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:38:51.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:38:52.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:38:52.014  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:38:53.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:38:54.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:38:54.022  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:38:55.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:38:56.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:38:56.016  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:38:57.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:38:58.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:38:58.025  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:38:59.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:39:00.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:39:00.019  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:39:01.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:39:02.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:39:02.028  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:39:03.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:39:04.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:39:04.022  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:39:05.013  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:39:06.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:39:06.031  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:39:07.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:39:08.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:39:08.025  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:39:09.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:39:10.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:39:10.020  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:39:11.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:39:12.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:39:12.028  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:39:13.013  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:39:14.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:39:14.022  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:39:15.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:39:16.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:39:16.031  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:39:17.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:39:18.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:39:18.025  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:39:19.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:39:20.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:39:20.034  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:39:21.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:39:22.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:39:22.028  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:39:23.013  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:39:24.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:39:24.025  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:39:25.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:39:26.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:39:26.031  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:39:27.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:39:28.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:39:28.025  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:39:29.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:39:30.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:39:30.034  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:39:31.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:39:32.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:39:32.027  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:39:33.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:39:34.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:39:34.037  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:39:35.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:39:36.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:39:36.030  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:39:37.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:39:38.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:39:38.039  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:39:39.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:39:40.013  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:39:40.033  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:39:41.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:39:42.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:39:42.042  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:39:43.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:39:44.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:39:44.036  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:39:45.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:39:46.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:39:46.031  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:39:47.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:39:48.013  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:39:48.039  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:39:49.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:39:50.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:39:50.033  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:39:51.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:39:52.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:39:52.042  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:39:53.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:39:54.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:39:54.036  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:39:55.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:39:56.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:39:56.045  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:39:57.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:39:58.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:39:58.039  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:39:59.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:40:00.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:40:00.035  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:40:01.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:40:02.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:40:02.042  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:40:03.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:40:04.013  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:40:04.036  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:40:05.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:40:06.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:40:06.045  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:40:07.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:40:08.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:40:08.039  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:40:09.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:40:10.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:40:10.048  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:40:11.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:40:12.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:40:12.042  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:40:13.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:40:14.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:40:14.051  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:40:15.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:40:16.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:40:16.045  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:40:17.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:40:18.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:40:18.040  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:40:19.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:40:20.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:40:20.048  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:40:21.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:40:22.013  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:40:22.042  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:40:23.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:40:24.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:40:24.051  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:40:25.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:40:26.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:40:26.045  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:40:27.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:40:28.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:40:28.054  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:40:29.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:40:30.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:40:30.048  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:40:31.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:40:32.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:40:32.057  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:40:33.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:40:34.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:40:34.050  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:40:35.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:40:36.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:40:36.046  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:40:37.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:40:38.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:40:38.053  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:40:39.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:40:40.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:40:40.047  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:40:41.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:40:42.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:40:42.056  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:40:43.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:40:44.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:40:44.050  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:40:45.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:40:46.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:40:46.059  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:40:47.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:40:48.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:40:48.053  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:40:49.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:40:50.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:40:50.062  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:40:51.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:40:52.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:40:52.056  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:40:53.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:40:54.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:40:54.051  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:40:55.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:40:56.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:40:56.059  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:40:57.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:40:58.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:40:58.053  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:40:59.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:41:00.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:41:00.062  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:41:01.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:41:02.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:41:02.056  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:41:03.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:41:04.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:41:04.065  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:41:05.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:41:06.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:41:06.059  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:41:07.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:41:08.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:41:08.068  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:41:09.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:41:10.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:41:10.062  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:41:11.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:41:12.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:41:12.057  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:41:13.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:41:14.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:41:14.065  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:41:15.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:41:16.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:41:16.059  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:41:17.015  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:41:18.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:41:18.068  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:41:19.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:41:20.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:41:20.062  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:41:21.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:41:22.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:41:22.071  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:41:23.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:41:24.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:41:24.065  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:41:25.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:41:26.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:41:26.061  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:41:27.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:41:28.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:41:28.068  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:41:29.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:41:30.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:41:30.062  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:41:31.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:41:32.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:41:32.071  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:41:33.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:41:34.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:41:34.064  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:41:35.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:41:36.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:41:36.074  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:41:37.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:41:38.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:41:38.067  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:41:39.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:41:40.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:41:40.076  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:41:41.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:41:42.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:41:42.070  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:41:43.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:41:44.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:41:44.067  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:41:45.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:41:46.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:41:46.073  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:41:47.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:41:48.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:41:48.068  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:41:49.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:41:50.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:41:50.076  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:41:51.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:41:52.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:41:52.070  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:41:53.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:41:54.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:41:54.079  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:41:55.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:41:56.013  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:41:56.073  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:41:57.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:41:58.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:41:58.082  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:41:59.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:42:00.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:42:00.076  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:42:01.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:42:02.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:42:02.072  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:42:03.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:42:04.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:42:04.079  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:42:05.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:42:06.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:42:06.073  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:42:07.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:42:08.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:42:08.082  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:42:09.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:42:10.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:42:10.076  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:42:11.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:42:12.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:42:12.085  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:42:13.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:42:14.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:42:14.079  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:42:15.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:42:16.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:42:16.088  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:42:17.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:42:18.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:42:18.082  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:42:19.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:42:20.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:42:20.077  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:42:21.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:42:22.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:42:22.085  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:42:23.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:42:24.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:42:24.079  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:42:25.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:42:26.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:42:26.088  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:42:27.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:42:28.013  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:42:28.082  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:42:29.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:42:30.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:42:30.091  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:42:31.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:42:32.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:42:32.085  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:42:33.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:42:34.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:42:34.094  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:42:35.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:42:36.013  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:42:36.087  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:42:37.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:42:38.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:42:38.083  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:42:39.013  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:42:40.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:42:40.090  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:42:41.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:42:42.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:42:42.084  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:42:43.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:42:44.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:42:44.093  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:42:45.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:42:46.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:42:46.087  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:42:47.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:42:48.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:42:48.096  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:42:49.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:42:50.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:42:50.090  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:42:51.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:42:52.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:42:52.099  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:42:53.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:42:54.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:42:54.093  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:42:55.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:42:56.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:42:56.088  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:42:57.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:42:58.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:42:58.096  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:42:59.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:43:00.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:43:00.090  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:43:01.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:43:02.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:43:02.099  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:43:03.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:43:04.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:43:04.093  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:43:05.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:43:06.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:43:06.102  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:43:07.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:43:08.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:43:08.096  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:43:09.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:43:10.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:43:10.105  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:43:11.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:43:12.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:43:12.099  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:43:13.015  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:43:14.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:43:14.094  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:43:15.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:43:16.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:43:16.102  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:43:17.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:43:18.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:43:18.096  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:43:19.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:43:20.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:43:20.105  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:43:21.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:43:22.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:43:22.099  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:43:23.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:43:24.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:43:24.108  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:43:25.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:43:26.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:43:26.102  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:43:27.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:43:28.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:43:28.111  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:43:29.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:43:30.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:43:30.105  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:43:31.013  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:43:32.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:43:32.099  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:43:33.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:43:34.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:43:34.108  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:43:35.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:43:36.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:43:36.102  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:43:37.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:43:38.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:43:38.111  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:43:39.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:43:40.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:43:40.104  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:43:41.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:43:42.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:43:42.113  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:43:43.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:43:44.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:43:44.107  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:43:45.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:43:46.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:43:46.104  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:43:47.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:43:48.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:43:48.110  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:43:49.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:43:50.013  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:43:50.105  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:43:51.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:43:52.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:43:52.113  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:43:53.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:43:54.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:43:54.107  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:43:55.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:43:56.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:43:56.116  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:43:57.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:43:58.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:43:58.110  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:43:59.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:44:00.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:44:00.119  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:44:01.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:44:02.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:44:02.113  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:44:03.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:44:04.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:44:04.109  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:44:05.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:44:06.013  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:44:06.116  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:44:07.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:44:08.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:44:08.110  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:44:09.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:44:10.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:44:10.119  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:44:11.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:44:12.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:44:12.113  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:44:13.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:44:14.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:44:14.122  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:44:15.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:44:16.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:44:16.116  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:44:17.013  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:44:18.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:44:18.125  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:44:19.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:44:20.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:44:20.119  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:44:21.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:44:22.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:44:22.114  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:44:23.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:44:24.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:44:24.122  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:44:25.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:44:26.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:44:26.116  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:44:27.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:44:28.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:44:28.125  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:44:29.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:44:30.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:44:30.119  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:44:31.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:44:32.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:44:32.128  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:44:33.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:44:34.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:44:34.122  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:44:35.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:44:36.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:44:36.131  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:44:37.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:44:38.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:44:38.125  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:44:39.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:44:40.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:44:40.120  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:44:41.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:44:42.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:44:42.127  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:44:43.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:44:44.013  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:44:44.122  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:44:45.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:44:46.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:44:46.130  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:44:47.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:44:48.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:44:48.124  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:44:49.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:44:50.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:44:50.133  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:44:51.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:44:52.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:44:52.127  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:44:53.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:44:54.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:44:54.136  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:44:55.013  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:44:56.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:44:56.130  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:44:57.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:44:58.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:44:58.126  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:44:59.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:45:00.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:45:00.133  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:45:01.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:45:02.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:45:02.127  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:45:03.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:45:04.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:45:04.136  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:45:05.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:45:06.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:45:06.130  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:45:07.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:45:08.013  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:45:08.139  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:45:09.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:45:10.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:45:10.133  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:45:11.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:45:12.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:45:12.142  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:45:13.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:45:14.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:45:14.136  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:45:15.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:45:16.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:45:16.131  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:45:17.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:45:18.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:45:18.139  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:45:19.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:45:20.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:45:20.133  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:45:21.013  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:45:22.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:45:22.142  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:45:23.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:45:24.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:45:24.136  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:45:25.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:45:26.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:45:26.145  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:45:27.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:45:28.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:45:28.139  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:45:29.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:45:30.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:45:30.148  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:45:31.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:45:32.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:45:32.142  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:45:33.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:45:34.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:45:34.137  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:45:35.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:45:36.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:45:36.145  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:45:37.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:45:38.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:45:38.139  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:45:39.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:45:40.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:45:40.148  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:45:41.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:45:42.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:45:42.141  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:45:43.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:45:44.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:45:44.150  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:45:45.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:45:46.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:45:46.144  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:45:47.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:45:48.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:45:48.154  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:45:49.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:45:50.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:45:50.147  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:45:51.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:45:52.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:45:52.142  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:45:53.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:45:54.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:45:54.150  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:45:55.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:45:56.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:45:56.144  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:45:57.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:45:58.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:45:58.153  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:45:59.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:46:00.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:46:00.147  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:46:01.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:46:02.013  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:46:02.156  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:46:03.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:46:04.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:46:04.150  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:46:05.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:46:06.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:46:06.147  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:46:07.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:46:08.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:46:08.153  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:46:09.013  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:46:10.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:46:10.148  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:46:11.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:46:12.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:46:12.156  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:46:13.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:46:14.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:46:14.150  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:46:15.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:46:16.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:46:16.159  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:46:17.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:46:18.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:46:18.153  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:46:19.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:46:20.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:46:20.162  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:46:21.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:46:22.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:46:22.156  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:46:23.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:46:24.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:46:24.152  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:46:25.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:46:26.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:46:26.159  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:46:27.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:46:28.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:46:28.153  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:46:29.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:46:30.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:46:30.162  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:46:31.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:46:32.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:46:32.156  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:46:33.015  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:46:34.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:46:34.165  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:46:35.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:46:36.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:46:36.159  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:46:37.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:46:38.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:46:38.168  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:46:39.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:46:40.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:46:40.162  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:46:41.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:46:42.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:46:42.157  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:46:43.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:46:44.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:46:44.165  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:46:45.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:46:46.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:46:46.159  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:46:47.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:46:48.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:46:48.168  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:46:49.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:46:50.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:46:50.161  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:46:51.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:46:52.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:46:52.170  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:46:53.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:46:54.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:46:54.164  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:46:55.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:46:56.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:46:56.173  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:46:57.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:46:58.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:46:58.167  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:46:59.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:47:00.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:47:00.163  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:47:01.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:47:02.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:47:02.170  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:47:03.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:47:04.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:47:04.164  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:47:05.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:47:06.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:47:06.173  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:47:07.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:47:08.013  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:47:08.167  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:47:09.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:47:10.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:47:10.176  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:47:11.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:47:12.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:47:12.170  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:47:13.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:47:14.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:47:14.179  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:47:15.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:47:16.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:47:16.173  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:47:17.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:47:18.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:47:18.168  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:47:19.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:47:20.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:47:20.176  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:47:21.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:47:22.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:47:22.170  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:47:23.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:47:24.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:47:24.179  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:47:25.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:47:26.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:47:26.173  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:47:27.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:47:28.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:47:28.182  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:47:29.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:47:30.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:47:30.176  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:47:31.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:47:32.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:47:32.185  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:47:33.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:47:34.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:47:34.179  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:47:35.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:47:36.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:47:36.174  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:47:37.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:47:38.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:47:38.182  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:47:39.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:47:40.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:47:40.176  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:47:41.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:47:42.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:47:42.185  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:47:43.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:47:44.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:47:44.178  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:47:45.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:47:46.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:47:46.188  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:47:47.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:47:48.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:47:48.181  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:47:49.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:47:50.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:47:50.190  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:47:51.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:47:52.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:47:52.184  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:47:53.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:47:54.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:47:54.179  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:47:55.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:47:56.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:47:56.187  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:47:57.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:47:58.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:47:58.181  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:47:59.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:48:00.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:48:00.190  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:48:01.013  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:48:02.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:48:02.184  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:48:03.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:48:04.013  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:48:04.193  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:48:05.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:48:06.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:48:06.187  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:48:07.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:48:08.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:48:08.183  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:48:09.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:48:10.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:48:10.190  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:48:11.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:48:12.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:48:12.184  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:48:13.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:48:14.013  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:48:14.193  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:48:15.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:48:16.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:48:16.187  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:48:17.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:48:18.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:48:18.196  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:48:19.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:48:20.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:48:20.190  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:48:21.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:48:22.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:48:22.199  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:48:23.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:48:24.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:48:24.193  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:48:25.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:48:26.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:48:26.189  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:48:27.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:48:28.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:48:28.196  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:48:29.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:48:30.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:48:30.190  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:48:31.008  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:48:32.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:48:32.199  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:48:33.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:48:34.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:48:34.193  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:48:35.000  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:48:36.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:48:36.202  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:48:37.002  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:48:37.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:48:38.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:48:38.196  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:48:39.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:48:40.003  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:48:40.205  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:48:41.005  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:48:41.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:48:42.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:48:42.199  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:48:43.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:48:44.013  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:48:44.194  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:48:45.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:48:46.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:48:46.202  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:48:47.002  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:48:47.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:48:48.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:48:48.196  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:48:49.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:48:50.011  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:48:50.204  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:48:51.005  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:48:51.005  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:48:52.014  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:48:52.198  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:48:53.009  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:48:54.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:48:54.207  1479  1479 D hawaii.hwcomposer: FBDevice::post called 5 times [5 0 0 0 0 0 0 0]
+08-19 01:48:55.008  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:48:55.013  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:48:56.007  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:48:56.201  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:48:57.002  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:48:57.002  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:48:58.012  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:48:58.210  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:48:59.006  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:48:59.011  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:49:00.001  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:49:00.204  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
+08-19 01:49:01.005  1479  1479 D hawaii.hwcomposer: FBDevice::post called 4 times [4 0 0 0 0 0 0 0]
+08-19 01:49:01.010  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 67 times
+08-19 01:49:02.004  1479  1686 D hawaii.hwcomposer: FBDevice::vsync called 66 times
+08-19 01:49:02.200  1479  1479 D hawaii.hwcomposer: FBDevice::post called 1 times [1 0 0 0 0 0 0 0]
