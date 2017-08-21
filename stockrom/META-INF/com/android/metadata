@@ -1,0 +1,3 @@
+post-build=samsung/lineage_kyleprods/kyleprods:6.0.1/MOB31T/3b4c4c0809:userdebug/test-keys
+post-timestamp=1500278796
+pre-device=kyleprods
