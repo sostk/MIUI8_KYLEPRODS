@@ -5620,17 +5620,13 @@
     .line 2626
     .end local v14    # "cs":Landroid/graphics/drawable/Drawable$ConstantState;
     :cond_6
-    sget-object v4, Landroid/content/res/Resources;->sPreloadedDrawables:[Landroid/util/LongSparseArray;
-
     move-object/from16 v0, p0
 
-     move/from16 v1, p2
-  
-     invoke-virtual {v0, v10, v11, v1}, Landroid/content/res/Resources;->getPreloadedDrawable(JI)Landroid/graphics/drawable/Drawable$ConstantState;
+    move/from16 v1, p2
+
+    invoke-virtual {v0, v10, v11, v1}, Landroid/content/res/Resources;->getPreloadedDrawable(JI)Landroid/graphics/drawable/Drawable$ConstantState;
 
     move-result-object v14
-
-    check-cast v14, Landroid/graphics/drawable/Drawable$ConstantState;
 
     .local v14, "cs":Landroid/graphics/drawable/Drawable$ConstantState;
     goto :goto_1
